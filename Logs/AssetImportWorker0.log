@@ -15,12 +15,12 @@ D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62641
+51975
 Successfully changed project path to: D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 Using Asset Import Pipeline V2.
 Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 26.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -46,37 +46,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001598 seconds.
+Registered in 0.001682 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
+- Completed reload, in  0.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (135ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (132ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
+				RefreshPlugins (27ms)
 				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadAttributes (64ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -84,36 +84,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002137 seconds.
+Registered in 0.002371 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
+- Completed reload, in  0.832 seconds
 Domain Reload Profiling:
-	ReloadAssembly (809ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (658ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (239ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -121,14 +121,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1434 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
-System memory in use after: 65.8 MB.
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1871.
-Total: 2.567500 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.030900 ms MarkObjects: 2.340200 ms  DeleteObjects: 0.052400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 3.312500 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.036700 ms MarkObjects: 2.991300 ms  DeleteObjects: 0.076900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,233 +142,889 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs
-  artifactKey: Guid(8f846e58e5a3da748bf66604f06503f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(8f846e58e5a3da748bf66604f06503f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3bf151e33bb82d2d4c0b3233f63196') in 0.007676 seconds 
-  Import took 0.009687 seconds .
+  path: Assets/Imports
+  artifactKey: Guid(476c8c3f05f7554408cbfec55413b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports using Guid(476c8c3f05f7554408cbfec55413b3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b458469fda850b415c921134ae73e6') in 0.008196 seconds 
+  Import took 0.010347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1871.
+Total: 2.538900 ms (FindLiveObjects: 0.161400 ms CreateObjectMapping: 0.030800 ms MarkObjects: 2.332400 ms  DeleteObjects: 0.013000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.430207 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Special
+  artifactKey: Guid(29fd37e9bdec7e348875453d6dfd929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Special using Guid(29fd37e9bdec7e348875453d6dfd929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb942f4e27d7f8b68c101ef8a4ec3223') in 0.009775 seconds 
+  Import took 0.012253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.242212 seconds.
-  path: Assets/Imports/Character Movement Fundamentals
-  artifactKey: Guid(25a61401ab1802f40b4d211419b38d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals using Guid(25a61401ab1802f40b4d211419b38d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da00a912247d74dd245d49d8c8b264') in 0.005744 seconds 
-  Import took 0.007999 seconds .
+  Time since last request: 0.403226 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase
+  artifactKey: Guid(5b16aa0b1c8bccf4b8793a60f7685abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase using Guid(5b16aa0b1c8bccf4b8793a60f7685abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba16c0a4ecd079986800e63069a1198') in 0.006108 seconds 
+  Import took 0.008329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001431 seconds.
-  path: Assets/Imports/Character Movement Fundamentals
-  artifactKey: Guid(25a61401ab1802f40b4d211419b38d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals using Guid(25a61401ab1802f40b4d211419b38d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0da00a912247d74dd245d49d8c8b264') in 0.002099 seconds 
-  Import took 0.003716 seconds .
+  Time since last request: 2.194258 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/EmptyShowcaseScene.unity
+  artifactKey: Guid(5412a9fc8618c80448079b8044d119af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/EmptyShowcaseScene.unity using Guid(5412a9fc8618c80448079b8044d119af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349a56f08a46d3e799cfeb1eca4c52de') in 0.010616 seconds 
+  Import took 0.012892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.796753 seconds.
+  Time since last request: 18.683798 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/ShowcaseScene.unity
+  artifactKey: Guid(0684e71ec0516ab49bfb3674ce14e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/ShowcaseScene.unity using Guid(0684e71ec0516ab49bfb3674ce14e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5703f5dbf6e490912ebba6fce92a7a0a') in 0.005876 seconds 
+  Import took 0.008305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.843417 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/TopDownScene.unity
+  artifactKey: Guid(b43fa5670b584ab4f89ef07764fc7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Showcase/TopDownScene.unity using Guid(b43fa5670b584ab4f89ef07764fc7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6a3dbdee9c2698efbaf65aea2d6816') in 0.005573 seconds 
+  Import took 0.008233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.590014 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/ClickToMoveScene.unity
+  artifactKey: Guid(7b62eb4013b88c24b93c93a14856a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/ClickToMoveScene.unity using Guid(7b62eb4013b88c24b93c93a14856a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90fac4e6c7b58c81d344895d2ebf7fc') in 0.005534 seconds 
+  Import took 0.007854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.927050 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/ExternalCameraScene.unity
+  artifactKey: Guid(09fd1de69ec43d844958d1022aa2deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/ExternalCameraScene.unity using Guid(09fd1de69ec43d844958d1022aa2deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e5bbbbf6c01edc4d5da1bc14d99bb8') in 0.005337 seconds 
+  Import took 0.007592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397790 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/PlanetWalkerScene.unity
+  artifactKey: Guid(62e3e06ec82dbd942a7d469846ad0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Example Scenes/Special/PlanetWalkerScene.unity using Guid(62e3e06ec82dbd942a7d469846ad0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570c9898536132d7545a25aa5e071b1f') in 0.005640 seconds 
+  Import took 0.008075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1873.
+Total: 2.930100 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.103200 ms MarkObjects: 2.516500 ms  DeleteObjects: 0.018300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 737.306297 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations
+  artifactKey: Guid(494fec645b9189941a6ddb823587338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations using Guid(494fec645b9189941a6ddb823587338c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2177d1df86812cfb642f86e5de24ec35') in 0.009759 seconds 
+  Import took 0.012462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055510 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Capguy.fbx
+  artifactKey: Guid(e9742591237d9464ea2ff6112c0f5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Capguy.fbx using Guid(e9742591237d9464ea2ff6112c0f5eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0214d7aab2e2149895b804e750a41bd') in 0.197966 seconds 
+  Import took 0.200379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Idle.fbx
+  artifactKey: Guid(61c9dbcfe0f2e6148bd1580e59f9dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Idle.fbx using Guid(61c9dbcfe0f2e6148bd1580e59f9dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c747afa870971eefcce23febc8d7693') in 0.020246 seconds 
+  Import took 0.022661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkNeutral.fbx
+  artifactKey: Guid(6e3366571bd0929439eb424d3f8e82da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkNeutral.fbx using Guid(6e3366571bd0929439eb424d3f8e82da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8133e788423a6c76201a02788ec14099') in 0.018669 seconds 
+  Import took 0.020707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkBackward.fbx
+  artifactKey: Guid(7c42a756832ccd54f8a1a9a7058b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkBackward.fbx using Guid(7c42a756832ccd54f8a1a9a7058b7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd5949c88a68150573b8b10677f81af') in 0.019828 seconds 
+  Import took 0.022154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkForward.fbx
+  artifactKey: Guid(23849d03aca96364bb27745f377b6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkForward.fbx using Guid(23849d03aca96364bb27745f377b6eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9633bf86b462b16a12d516c0fa380957') in 0.020253 seconds 
+  Import took 0.022612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Jump.fbx
+  artifactKey: Guid(94b765951a612a8459516c926fb4e55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Jump.fbx using Guid(94b765951a612a8459516c926fb4e55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba0f18eb2367d5a8aca2cc477887a8d') in 0.018256 seconds 
+  Import took 0.020681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Fall.fbx
+  artifactKey: Guid(b0fe517c4b423b644be69ac56b7be116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Fall.fbx using Guid(b0fe517c4b423b644be69ac56b7be116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9573e12e3f9511f7aeb8a0afc31d653a') in 0.017821 seconds 
+  Import took 0.020210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/IdleLooking.fbx
+  artifactKey: Guid(11be73d1ea553d540bb92b29b210845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/IdleLooking.fbx using Guid(11be73d1ea553d540bb92b29b210845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e80a0a75cd0e0711b025682d2a4313') in 0.020532 seconds 
+  Import took 0.022926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Land.fbx
+  artifactKey: Guid(b0b75ad3a96b0ec45ae1014524495113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/Land.fbx using Guid(b0b75ad3a96b0ec45ae1014524495113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e69e860f11e819d6035d0640b701e6') in 0.018556 seconds 
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkRight.fbx
+  artifactKey: Guid(230ba09445d988f4c8d9d8f5e67079f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkRight.fbx using Guid(230ba09445d988f4c8d9d8f5e67079f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4d0b243efe1bf03292732a294c86ba') in 0.021300 seconds 
+  Import took 0.023568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkLeft.fbx
+  artifactKey: Guid(555b4ed73ed505c41b16dcd0deca550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Animations/WalkLeft.fbx using Guid(555b4ed73ed505c41b16dcd0deca550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2d8193a5b378255fb8d77eb9497557') in 0.020917 seconds 
+  Import took 0.023133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.976188 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers
+  artifactKey: Guid(9dbb16086c7f4404ba44288cc5880464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers using Guid(9dbb16086c7f4404ba44288cc5880464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754e7bde442898c6a1d3c3258eaae9ed') in 0.005607 seconds 
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001445 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers
+  artifactKey: Guid(9dbb16086c7f4404ba44288cc5880464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers using Guid(9dbb16086c7f4404ba44288cc5880464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754e7bde442898c6a1d3c3258eaae9ed') in 0.001470 seconds 
+  Import took 0.003662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.549521 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/AdvancedWalkerController.cs
+  artifactKey: Guid(1f5e44db14072ea4c964da3b192181c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/AdvancedWalkerController.cs using Guid(1f5e44db14072ea4c964da3b192181c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a54c2255fdba12d80f7a42c149a0610') in 0.009496 seconds 
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.436193 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/ClickToMoveController.cs
+  artifactKey: Guid(0c44a9caf002ec44d827c53434b77fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/ClickToMoveController.cs using Guid(0c44a9caf002ec44d827c53434b77fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c24beb35506ffaba7fbe6bdabda0a7b') in 0.004994 seconds 
+  Import took 0.007438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.474716 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/Controller.cs
+  artifactKey: Guid(b20e5828bfdcfee4d84d86b460583c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/Controller.cs using Guid(b20e5828bfdcfee4d84d86b460583c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886d91e13d662ac47b5062599706034e') in 0.005324 seconds 
+  Import took 0.007816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001973 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/Controller.cs
+  artifactKey: Guid(b20e5828bfdcfee4d84d86b460583c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/Controller.cs using Guid(b20e5828bfdcfee4d84d86b460583c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886d91e13d662ac47b5062599706034e') in 0.001462 seconds 
+  Import took 0.003211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786849 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/SidescrollerController.cs
+  artifactKey: Guid(981bf2d6075c7e04d830faa1e7194fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/SidescrollerController.cs using Guid(981bf2d6075c7e04d830faa1e7194fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d15c8c542ef4ab00cf75d3b4bab676c') in 0.005168 seconds 
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.419606 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/SimpleWalkerController.cs
+  artifactKey: Guid(1a380e2958019be4289ebe9d5bf5d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Scripts/Controllers/SimpleWalkerController.cs using Guid(1a380e2958019be4289ebe9d5bf5d649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1855703147323e3fd61f0dd42abeec4c') in 0.005502 seconds 
+  Import took 0.008051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.949455 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy
+  artifactKey: Guid(010a0b0ddecf3bd4597350aead3b8cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy using Guid(010a0b0ddecf3bd4597350aead3b8cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d5731cff2b55a326640a6878901cf') in 0.001706 seconds 
+  Import took 0.006252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003664 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy
+  artifactKey: Guid(010a0b0ddecf3bd4597350aead3b8cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy using Guid(010a0b0ddecf3bd4597350aead3b8cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d5731cff2b55a326640a6878901cf') in 0.001501 seconds 
+  Import took 0.003278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.701536 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/CapguyAnimator.controller
+  artifactKey: Guid(568cf4cd0dc9cb848821933ae06d9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/CapguyAnimator.controller using Guid(568cf4cd0dc9cb848821933ae06d9566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caecdd74bb37b039e27488df650b83b6') in 0.012527 seconds 
+  Import took 0.015206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.354418 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model
+  artifactKey: Guid(0c4adb75cfe89df47a6568d26664c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model using Guid(0c4adb75cfe89df47a6568d26664c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0405d0b50498d177c42f1dafbc22c28') in 0.005111 seconds 
+  Import took 0.007529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066217 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Capguy.fbx
+  artifactKey: Guid(234e7bec653fac142bf894a76905e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Capguy.fbx using Guid(234e7bec653fac142bf894a76905e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e2349cfaaf542acbc80f503dbed445') in 0.018101 seconds 
+  Import took 0.020608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.594575 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials
+  artifactKey: Guid(425d4b5137b8c4a428e751872ab5c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials using Guid(425d4b5137b8c4a428e751872ab5c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf4a895855c3f7f23d283ebfe581508') in 0.006600 seconds 
+  Import took 0.008928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001063 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials
+  artifactKey: Guid(425d4b5137b8c4a428e751872ab5c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials using Guid(425d4b5137b8c4a428e751872ab5c5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf4a895855c3f7f23d283ebfe581508') in 0.001710 seconds 
+  Import took 0.003652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089604 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Cap_Texture.mat
+  artifactKey: Guid(f90064b5ababb324a956cbd5b5f92a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Cap_Texture.mat using Guid(f90064b5ababb324a956cbd5b5f92a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b53f6d6734a1448196e811e80b78f') in 0.025781 seconds 
+  Import took 0.028275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Mat_Cap.mat
+  artifactKey: Guid(bbfba1bed9130b346ace2f34da8e6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Mat_Cap.mat using Guid(bbfba1bed9130b346ace2f34da8e6765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2956c5c15e4889582ae0667bbd47ec') in 0.026151 seconds 
+  Import took 0.028619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Mat_Capguy.mat
+  artifactKey: Guid(8675ae4aa2da1114d8b2d358969ce630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Mat_Capguy.mat using Guid(8675ae4aa2da1114d8b2d358969ce630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03182728251f37b4abff42ec7d04eaca') in 0.013485 seconds 
+  Import took 0.015805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Capguy_Texture_Body.mat
+  artifactKey: Guid(cba1f6de4ef9d5843810382a765ce94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Source/Capguy/Model/Materials/Capguy_Texture_Body.mat using Guid(cba1f6de4ef9d5843810382a765ce94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5efbea5021b786525b7a7fe2132cd1c') in 0.010835 seconds 
+  Import took 0.013217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.067150 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs
   artifactKey: Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs using Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff6006a30908a91c8e611e4098621b8') in 0.002821 seconds 
-  Import took 0.005309 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs using Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149bc1768cf778f23ae98e767f92537f') in 0.005108 seconds 
+  Import took 0.007503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002137 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs
-  artifactKey: Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs using Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff6006a30908a91c8e611e4098621b8') in 0.001398 seconds 
-  Import took 0.003281 seconds .
+  Time since last request: 1.986081 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment
+  artifactKey: Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment using Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42efd7f9a4a07f1e5d7a48f32d5c5d29') in 0.005343 seconds 
+  Import took 0.007757 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.239226 seconds.
+  Time since last request: 0.002134 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment
+  artifactKey: Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment using Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42efd7f9a4a07f1e5d7a48f32d5c5d29') in 0.001564 seconds 
+  Import took 0.003472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.129238 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive
+  artifactKey: Guid(5f807cf701023034f80f85bf55db6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive using Guid(5f807cf701023034f80f85bf55db6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5129e9494ccdc5ba3a98c9a57b7aca79') in 0.004988 seconds 
+  Import took 0.007368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063392 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/GravityFlipper.prefab
+  artifactKey: Guid(0b924be64f5af8646ac3b68d242ea1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/GravityFlipper.prefab using Guid(0b924be64f5af8646ac3b68d242ea1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304f789d1655542710c88c025991ba9') in 0.015635 seconds 
+  Import took 0.018155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/MovingPlatform.prefab
+  artifactKey: Guid(cc42f2b250060804c84fd5fdca28595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/MovingPlatform.prefab using Guid(cc42f2b250060804c84fd5fdca28595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86da79f43707bdece5e5441df0bc1876') in 0.013283 seconds 
+  Import took 0.015779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/GravityTunnel.prefab
+  artifactKey: Guid(937a968b0fc4f964185ed780d5a1fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Interactive/GravityTunnel.prefab using Guid(937a968b0fc4f964185ed780d5a1fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41788ae42ac04bc757b91c63b4d136bd') in 0.013008 seconds 
+  Import took 0.015194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.789805 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static
+  artifactKey: Guid(b3658e98aa7f3d84782d56c8036e7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static using Guid(b3658e98aa7f3d84782d56c8036e7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2886cb767dbb5ad66c79d69f72926b8') in 0.004891 seconds 
+  Import took 0.007173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002799 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static
+  artifactKey: Guid(b3658e98aa7f3d84782d56c8036e7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static using Guid(b3658e98aa7f3d84782d56c8036e7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2886cb767dbb5ad66c79d69f72926b8') in 0.001480 seconds 
+  Import took 0.003677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089725 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_2x2x2.prefab
+  artifactKey: Guid(86496ff5b27bea840ad25d9fcc9c792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_2x2x2.prefab using Guid(86496ff5b27bea840ad25d9fcc9c792e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efdf992fa3a22db6159c6a09e3fe466') in 0.011973 seconds 
+  Import took 0.014516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tunnel_18x18.prefab
+  artifactKey: Guid(4e1f4b2d33940d94293dd7050c32b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tunnel_18x18.prefab using Guid(4e1f4b2d33940d94293dd7050c32b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db659fb39d98114a2b7374a033f7e9f') in 0.014056 seconds 
+  Import took 0.016231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x1.prefab
+  artifactKey: Guid(9ee030801cfe27e498146958ad2289c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x1.prefab using Guid(9ee030801cfe27e498146958ad2289c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a245c86dd6d83d1defd074ce3119d83') in 0.012892 seconds 
+  Import took 0.015329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_4x4x1.prefab
+  artifactKey: Guid(4dc2c143bf9ffbb4b8178ab20f930ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_4x4x1.prefab using Guid(4dc2c143bf9ffbb4b8178ab20f930ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0051fe2c986de023dda7801f17912bbf') in 0.012193 seconds 
+  Import took 0.014292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_4x4x2.prefab
+  artifactKey: Guid(b0a74fd0f12544b43b845259f2a12cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_4x4x2.prefab using Guid(b0a74fd0f12544b43b845259f2a12cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df74626cd4e2f0773d351546144d3b5') in 0.011904 seconds 
+  Import took 0.014288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_4x4x2.prefab
+  artifactKey: Guid(bc8ceadc0b3549e4bb5ab1d412142f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_4x4x2.prefab using Guid(bc8ceadc0b3549e4bb5ab1d412142f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4ec2560772df2cd9a6daa130192169') in 0.013410 seconds 
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Terrain.prefab
+  artifactKey: Guid(306992aaa36a615449dc9b27ef645f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Terrain.prefab using Guid(306992aaa36a615449dc9b27ef645f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519605f523e2e631a2eddec538c3d3e8') in 0.013472 seconds 
+  Import took 0.015676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_4x4x4.prefab
+  artifactKey: Guid(9af4bc1d01b9ec04c9d66a88ace89c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Cube_4x4x4.prefab using Guid(9af4bc1d01b9ec04c9d66a88ace89c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d3210157f14daf9fb76d9c41c8fefc') in 0.012600 seconds 
+  Import took 0.015094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x4.prefab
+  artifactKey: Guid(e907a2df8aff59c44ba0f1e40ff166d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x4.prefab using Guid(e907a2df8aff59c44ba0f1e40ff166d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2815b147ba3c95a5dd8a8a255b862819') in 0.013259 seconds 
+  Import took 0.015693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/WaveTile_20x4.prefab
+  artifactKey: Guid(31fe7464a84a3d344862b5fa6349a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/WaveTile_20x4.prefab using Guid(31fe7464a84a3d344862b5fa6349a33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8936b529bce90f333df73768d2d5df65') in 0.012063 seconds 
+  Import took 0.014541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_8x8x2.prefab
+  artifactKey: Guid(94abe9e3247bec64db8e3c627dd2889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_8x8x2.prefab using Guid(94abe9e3247bec64db8e3c627dd2889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c1cad414257f65ce54b9ce8613f00') in 0.012320 seconds 
+  Import took 0.014798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_4x4x2.prefab
+  artifactKey: Guid(8f2cc1af87767614284ac252281120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_4x4x2.prefab using Guid(8f2cc1af87767614284ac252281120c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d672e821d34bc17377c06bfe8abd91') in 0.013855 seconds 
+  Import took 0.016086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x2_Small.prefab
+  artifactKey: Guid(d195d2e61b2b96740b9fee3327219a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x2_Small.prefab using Guid(d195d2e61b2b96740b9fee3327219a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b4c4ad8d372d83368c1d0269112587') in 0.011568 seconds 
+  Import took 0.013703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x2.prefab
+  artifactKey: Guid(e128ad0bc7a42ab45839984b828e5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Stair_8x4x2.prefab using Guid(e128ad0bc7a42ab45839984b828e5bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f49796856da7ac8e224c1aef019d359') in 0.011229 seconds 
+  Import took 0.013463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_4x4x1.prefab
+  artifactKey: Guid(f557ed81f5649d640a89cc935866bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_4x4x1.prefab using Guid(f557ed81f5649d640a89cc935866bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c45ddcd76d50a12b4de798e11655ba') in 0.011665 seconds 
+  Import took 0.013825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_16x16x2.prefab
+  artifactKey: Guid(7d931555e87222947a8181fc81cabd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Tile_16x16x2.prefab using Guid(7d931555e87222947a8181fc81cabd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7053177e64104c5e008c75915b958a9f') in 0.012248 seconds 
+  Import took 0.014766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_8x4x4.prefab
+  artifactKey: Guid(5392e0b5a85da2146b1f076d1d875bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment/Static/Ramp_8x4x4.prefab using Guid(5392e0b5a85da2146b1f076d1d875bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf67a349b9e122a0547b82d11ba15eb') in 0.011790 seconds 
+  Import took 0.014448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.492764 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller
   artifactKey: Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller using Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd5d5b847fd61f87fcccb02d489567') in 0.006023 seconds 
-  Import took 0.008316 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller using Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03bb48dc7ccf3f59e40bebcc4a79a5b') in 0.001622 seconds 
+  Import took 0.004008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.908171 seconds.
+  Time since last request: 0.005661 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller
+  artifactKey: Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller using Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03bb48dc7ccf3f59e40bebcc4a79a5b') in 0.001575 seconds 
+  Import took 0.003563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.952451 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified
+  artifactKey: Guid(46517a5ea18044a4a91fe8c8cf277be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified using Guid(46517a5ea18044a4a91fe8c8cf277be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81a2801ec6318e5881d4228ee54181a') in 0.005188 seconds 
+  Import took 0.007835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068016 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleFirstPersonWalker.prefab
+  artifactKey: Guid(456c1cbc22897d1479a87984f33850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleFirstPersonWalker.prefab using Guid(456c1cbc22897d1479a87984f33850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cd0e91077c9f8c467983ea26b146d3') in 0.008995 seconds 
+  Import took 0.011375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleThirdPersonWalker.prefab
+  artifactKey: Guid(fda96051142388e4cbaf774de278a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleThirdPersonWalker.prefab using Guid(fda96051142388e4cbaf774de278a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccff908b460cee2294dcf4748343940a') in 0.014896 seconds 
+  Import took 0.016994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.473278 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank
+  artifactKey: Guid(5bb5a4d77c6b9bb4f8597b7a1bb7c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank using Guid(5bb5a4d77c6b9bb4f8597b7a1bb7c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52690761012b8cb4b88938d203ad133') in 0.005297 seconds 
+  Import took 0.007696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078557 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ClickToMoveWalker.prefab
+  artifactKey: Guid(672fa25cbe4559248a5115f552994375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ClickToMoveWalker.prefab using Guid(672fa25cbe4559248a5115f552994375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5da96cb40efbd5e44de49f0c772215') in 0.011862 seconds 
+  Import took 0.014395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/TopDownWalker.prefab
+  artifactKey: Guid(90f0d76140309b246a4ab80b3cc13882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/TopDownWalker.prefab using Guid(90f0d76140309b246a4ab80b3cc13882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c023a73af41c93203fc0a5c84beb8887') in 0.011188 seconds 
+  Import took 0.013356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/FirstPersonWalker.prefab
+  artifactKey: Guid(1ea5714554406484c8037e495f767252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/FirstPersonWalker.prefab using Guid(1ea5714554406484c8037e495f767252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a278cd0b0656e0d0f1c48485f3cbb87c') in 0.006387 seconds 
+  Import took 0.008168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_C.prefab
+  artifactKey: Guid(02db1269cd824a742a44596330eb0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_C.prefab using Guid(02db1269cd824a742a44596330eb0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7af7c846c388a37ad0b8d5d05310d17') in 0.012559 seconds 
+  Import took 0.014785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_A.prefab
+  artifactKey: Guid(a00ef768dbc458c49b48d4172fcdc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_A.prefab using Guid(a00ef768dbc458c49b48d4172fcdc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563fd0d85e595ee3686ba3e55ed50e7d') in 0.011532 seconds 
+  Import took 0.014017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/SideScroller.prefab
+  artifactKey: Guid(598b6bc40260ea04b9652cd28338a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/SideScroller.prefab using Guid(598b6bc40260ea04b9652cd28338a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c81c66b7ad1918c9893ca2a898076ae') in 0.011780 seconds 
+  Import took 0.014093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_B.prefab
+  artifactKey: Guid(41d5060342076c64fbfc3a2c9be14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_B.prefab using Guid(41d5060342076c64fbfc3a2c9be14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e4f07a66ce391c26ce6444bd5bdd06') in 0.012970 seconds 
+  Import took 0.015515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.914807 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated
   artifactKey: Guid(41f3b0c89f095d2409e113dcc91d8ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated using Guid(41f3b0c89f095d2409e113dcc91d8ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26079c42e032fa4a391db2ad498235d2') in 0.005320 seconds 
-  Import took 0.007621 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated using Guid(41f3b0c89f095d2409e113dcc91d8ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09fc88dacb59a2d0bb8906a776326f5') in 0.005155 seconds 
+  Import took 0.007576 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.068837 seconds.
+  Time since last request: 0.071470 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ClickToMoveWalker_Animated.prefab
   artifactKey: Guid(2b9ee834208526843a93587c6c0e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ClickToMoveWalker_Animated.prefab using Guid(2b9ee834208526843a93587c6c0e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1ae94f7ff2d0f46c98c46ebbe4f0ca') in 0.100960 seconds 
-  Import took 0.103713 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ClickToMoveWalker_Animated.prefab using Guid(2b9ee834208526843a93587c6c0e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526af138c5f39876f7b9487cd332adce') in 0.020239 seconds 
+  Import took 0.023216 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000199 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_B_Animated.prefab
   artifactKey: Guid(cee2bd08b353c524e8b78d71dfc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_B_Animated.prefab using Guid(cee2bd08b353c524e8b78d71dfc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44998bf4d15bfbcd37a16a536ccf0c22') in 0.021914 seconds 
-  Import took 0.024409 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_B_Animated.prefab using Guid(cee2bd08b353c524e8b78d71dfc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dd566e18830b71eeb3c4c34e90659c') in 0.018969 seconds 
+  Import took 0.021707 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
+  Time since last request: 0.000207 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/TopDownWalker_Animated.prefab
   artifactKey: Guid(8dfc15a469c11674591a3365edc0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/TopDownWalker_Animated.prefab using Guid(8dfc15a469c11674591a3365edc0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde9f892a7a9057a2266fdebca805b7e') in 0.019395 seconds 
-  Import took 0.021888 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/TopDownWalker_Animated.prefab using Guid(8dfc15a469c11674591a3365edc0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dd442419c443ae4ad14d89e7343013') in 0.018628 seconds 
+  Import took 0.021658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
+  Time since last request: 0.000240 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_A_Animated.prefab
   artifactKey: Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_A_Animated.prefab using Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ef04d6230b4fe67c99ebf217ec4901') in 0.019067 seconds 
-  Import took 0.021656 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_A_Animated.prefab using Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fff796f6877f2bfc56823ed81a9d0d') in 0.018647 seconds 
+  Import took 0.021371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
+  Time since last request: 0.000207 seconds.
   path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/FirstPersonWalker_Audio.prefab
   artifactKey: Guid(5d075d3ed32dfe1498e31454964d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/FirstPersonWalker_Audio.prefab using Guid(5d075d3ed32dfe1498e31454964d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87e4543f6c262b59d41508a7f57782') in 0.007046 seconds 
-  Import took 0.009055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab
-  artifactKey: Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab using Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad5dcbe99826e1ba12005825da784c') in 0.018571 seconds 
-  Import took 0.021000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab
-  artifactKey: Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab using Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79850bbbef55869e447f10f6abc7552') in 0.018329 seconds 
-  Import took 0.020820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.975655 seconds.
-  path: Assets/Prefabs/ThirdPersonWalker_A_Animated.prefab
-  artifactKey: Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ThirdPersonWalker_A_Animated.prefab using Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8056ef5db43b6765534ccc90047352') in 0.016642 seconds 
-  Import took 0.019436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.167047 seconds.
-  path: Assets/Prefabs/ThirdPersonWalker_A_Animated.prefab
-  artifactKey: Guid(25729eec8690e354b9b00f40a0a34a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ThirdPersonWalker_A_Animated.prefab using Guid(25729eec8690e354b9b00f40a0a34a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aca80f476cf4369bd9ee5f867625742') in 0.030605 seconds 
-  Import took 0.033878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.536496 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleFirstPersonWalker.prefab
-  artifactKey: Guid(456c1cbc22897d1479a87984f33850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleFirstPersonWalker.prefab using Guid(456c1cbc22897d1479a87984f33850bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4bb08c78aeacdb6691a9df675e46c1') in 0.007375 seconds 
-  Import took 0.009760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleThirdPersonWalker.prefab
-  artifactKey: Guid(fda96051142388e4cbaf774de278a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Simplified/SimpleThirdPersonWalker.prefab using Guid(fda96051142388e4cbaf774de278a4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e84be5ed677cc582887ff92a1162209') in 0.013912 seconds 
-  Import took 0.016361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.077358 seconds.
-  path: Assets/Prefabs/ThirdPersonWalker_B_Animated.prefab
-  artifactKey: Guid(072d1874bf325a44f9d126d46a8014e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ThirdPersonWalker_B_Animated.prefab using Guid(072d1874bf325a44f9d126d46a8014e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b971bb5c7487d026ced90e54ee282630') in 0.020637 seconds 
-  Import took 0.023721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.327399 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ClickToMoveWalker.prefab
-  artifactKey: Guid(672fa25cbe4559248a5115f552994375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ClickToMoveWalker.prefab using Guid(672fa25cbe4559248a5115f552994375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd139f3964c31c2e219fb52a340d93c5d') in 0.014458 seconds 
-  Import took 0.017129 seconds .
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/FirstPersonWalker_Audio.prefab using Guid(5d075d3ed32dfe1498e31454964d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2fc146ce91989e6e0fa6b26b779328') in 0.007155 seconds 
+  Import took 0.009535 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000201 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/TopDownWalker.prefab
-  artifactKey: Guid(90f0d76140309b246a4ab80b3cc13882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/TopDownWalker.prefab using Guid(90f0d76140309b246a4ab80b3cc13882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7d7db12f61dd73323ec467daaf8cc4') in 0.012509 seconds 
-  Import took 0.014601 seconds .
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab
+  artifactKey: Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab using Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d72b3cb9d99a53a415e0f585b9537d') in 0.018655 seconds 
+  Import took 0.021426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/FirstPersonWalker.prefab
-  artifactKey: Guid(1ea5714554406484c8037e495f767252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/FirstPersonWalker.prefab using Guid(1ea5714554406484c8037e495f767252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99ca71d88e86599aa84a636c5cf4b3c') in 0.006894 seconds 
-  Import took 0.009616 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab
+  artifactKey: Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab using Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea32077c5d3c0d7d7f3c000fe3a9610a') in 0.018975 seconds 
+  Import took 0.021865 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_C.prefab
-  artifactKey: Guid(02db1269cd824a742a44596330eb0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_C.prefab using Guid(02db1269cd824a742a44596330eb0f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429958c91706d0373e7ca89b91ef9285') in 0.012983 seconds 
-  Import took 0.015540 seconds .
+  Time since last request: 18.193409 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.005391 seconds 
+  Import took 0.007869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_A.prefab
-  artifactKey: Guid(a00ef768dbc458c49b48d4172fcdc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_A.prefab using Guid(a00ef768dbc458c49b48d4172fcdc73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4fad0a2c56e3106dfc85459bd895c3') in 0.012368 seconds 
-  Import took 0.014433 seconds .
+  Time since last request: 0.002251 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.001849 seconds 
+  Import took 0.004060 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/SideScroller.prefab
-  artifactKey: Guid(598b6bc40260ea04b9652cd28338a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/SideScroller.prefab using Guid(598b6bc40260ea04b9652cd28338a36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb24d4a62867a1bec41b65d684b01a25') in 0.012804 seconds 
-  Import took 0.015440 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
 
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 2.749600 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.032000 ms MarkObjects: 2.485300 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_B.prefab
-  artifactKey: Guid(41d5060342076c64fbfc3a2c9be14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Blank/ThirdPersonWalker_B.prefab using Guid(41d5060342076c64fbfc3a2c9be14c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c530454f00b74f586f5f0aae6f39b6d7') in 0.012426 seconds 
-  Import took 0.015090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.615808 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Environment
-  artifactKey: Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Environment using Guid(e64d6c4711226e64687347505661f69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43949ea0b6f78adb08337f17b3bfd07b') in 0.005696 seconds 
-  Import took 0.008137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.816927 seconds.
-  path: Assets/Prefabs/FirstPersonWalker_Audio.prefab
-  artifactKey: Guid(afd35f791ab582442869f4406d7a0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FirstPersonWalker_Audio.prefab using Guid(afd35f791ab582442869f4406d7a0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc63e5e92be492deb12de0ccd81bf63') in 0.005689 seconds 
-  Import took 0.008249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004791 seconds.
-  path: Assets/Prefabs/FirstPersonWalker_Audio.prefab
-  artifactKey: Guid(afd35f791ab582442869f4406d7a0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FirstPersonWalker_Audio.prefab using Guid(afd35f791ab582442869f4406d7a0d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc63e5e92be492deb12de0ccd81bf63') in 0.004193 seconds 
-  Import took 0.006519 seconds .
+  Time since last request: 5865.231416 seconds.
+  path: Assets/Imports/Character Movement Fundamentals/Manual.pdf
+  artifactKey: Guid(7457ffc660cb4324899e24b506402fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Character Movement Fundamentals/Manual.pdf using Guid(7457ffc660cb4324899e24b506402fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61e7ce8c1af0b34e2daa2174bf0a3a6') in 0.019563 seconds 
+  Import took 0.024562 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
