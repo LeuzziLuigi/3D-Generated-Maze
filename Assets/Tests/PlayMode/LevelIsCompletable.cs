@@ -31,7 +31,6 @@ public class LevelIsCompletable
 
         exit = GameObject.FindGameObjectWithTag("Exit");
 
-
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
