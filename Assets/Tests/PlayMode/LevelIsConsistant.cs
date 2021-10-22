@@ -8,6 +8,14 @@ public class LevelIsConsistant
 {
     const int NUMBER_OF_COORDINATES = 3;
     const int TIMES_TO_REPEAT_TEST = 100;
+    const string TEST_LEVEL = "Maze Gen";
+
+    [SetUp]
+    private void Setup()
+    {
+        LevelLoader loadLevel = new LevelLoader();
+        loadLevel.LoadLevel(TEST_LEVEL);
+    }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
@@ -94,8 +102,10 @@ public class LevelIsConsistant
 
     private void ReloadLevel()
     {
-        //Reset Level
+        LevelLoader loadLevel = new LevelLoader();
         //Reset Seed randomizer
         //Reload from same seed
+        //Reset Level
+        loadLevel.LoadLevel(TEST_LEVEL);
     }
 }

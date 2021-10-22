@@ -8,21 +8,30 @@ using UnityEngine.TestTools;
 public class LevelIsCompletable
 {
     const int MAX_TIME = 10;
+    const string TEST_LEVEL = "Maze Gen";
+    PlayerPathing pathing;
+    GameObject exit;
 
     //Sets up for test.
     [SetUp]
     public void Setup()
     {
-        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
-            playerObject.AddComponent<NavMeshAgent>();
-    }
+        LevelLoader loadLevel = new LevelLoader();
+        loadLevel.LoadLevel(TEST_LEVEL);
 
-    // A Test behaves as an ordinary method
-    [Test]
-    public void LevelIsCompletableSimplePasses()
-    {
-        // Use the Assert class to test conditions
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null) {
+            playerObject.AddComponent<NavMeshAgent>();
+            playerObject.AddComponent<PlayerPathing>();
+
+            PlayerPathing pathing = playerObject.GetComponent<PlayerPathing>();
+
+            pathing.SetAgent(playerObject.GetComponent<NavMeshAgent>());
+        }
+
+        exit = GameObject.FindGameObjectWithTag("Exit");
+
+
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
@@ -35,7 +44,8 @@ public class LevelIsCompletable
         bool levelComplete = false;
         bool timeUp = false;
 
-        // Use the Assert class to test conditions.
+        pathing.SetTarget(exit.transform.position);
+
         int timeRan = 0;
         while (!levelComplete && !timeUp)
         {
@@ -54,6 +64,7 @@ public class LevelIsCompletable
             levelIsCompleteable = false;
         }
 
+        // Use the Assert class to test conditions.
         Assert.IsTrue(levelIsCompleteable);
 
         // Use yield to skip a frame.
@@ -62,7 +73,7 @@ public class LevelIsCompletable
 
     private bool LevelIsCompleted()
     {
-        bool isComplete = true;
+        bool isComplete = false;
         //Code to check for level completion
 
         return isComplete;
