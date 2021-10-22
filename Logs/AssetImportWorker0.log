@@ -1,0 +1,710 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50793
+Successfully changed project path to: D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
+D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
+Using Asset Import Pipeline V2.
+Unable to join player connection multicast group.
+Refreshing native plugins compatible for Editor in 40.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Coding/Projects/3D Random Maze/3D-Generated-Maze/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: GeForce RTX 2060 SUPER/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 461.92
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_win32 GL_NV_memory_object_sparse GL_EXT_win32_keyed_mutex GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_win32 GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_cohe
+rent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_pr
+ogram4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rat
+e_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NVX_linked_gpu_multicast GL_NV_gpu_multicast GL_NVX_gpu_multicast2 GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_multigpu_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipm
+ap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 65537
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001597 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (141ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (263ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2857.
+Total: 4.103900 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.572900 ms  DeleteObjects: 1.170900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Polaris - Low Poly Ecosystem/Low Poly Tools Bundle
+  artifactKey: Guid(0495298fbed9697498e1c30e63f6b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Low Poly Tools Bundle using Guid(0495298fbed9697498e1c30e63f6b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e39803c8be1fe738e30987d2489fce') in 0.009284 seconds 
+  Import took 0.012907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine
+  artifactKey: Guid(6638f055ff57b5d4a9d2760f8fac1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine using Guid(6638f055ff57b5d4a9d2760f8fac1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fb5a8787819999eb8e1b9052f59754') in 0.005812 seconds 
+  Import took 0.009609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228400 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System
+  artifactKey: Guid(c070072aa0ca02f4bb913b2620011d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System using Guid(c070072aa0ca02f4bb913b2620011d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d79cbc9a865e73d0d9eca0f1638ddb') in 0.007770 seconds 
+  Import took 0.011451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.184471 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph
+  artifactKey: Guid(5cc6f79b2f7c4004dbaf0fb8848b25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph using Guid(5cc6f79b2f7c4004dbaf0fb8848b25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb003a6640bf76db254310f71982ddcb') in 0.005827 seconds 
+  Import took 0.009500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.708543 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky
+  artifactKey: Guid(96444dd15c9a29843b69d6b602a3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky using Guid(96444dd15c9a29843b69d6b602a3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c862e9c878cc9a6216277dd673c27996') in 0.005369 seconds 
+  Import took 0.009090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004279 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky
+  artifactKey: Guid(96444dd15c9a29843b69d6b602a3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky using Guid(96444dd15c9a29843b69d6b602a3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c862e9c878cc9a6216277dd673c27996') in 0.001691 seconds 
+  Import took 0.004687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.182942 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample
+  artifactKey: Guid(306900319a16fc54ab86712abd36fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample using Guid(306900319a16fc54ab86712abd36fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dead8b843216e1a9cadda9c00bc2ae') in 0.005565 seconds 
+  Import took 0.009271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample
+  artifactKey: Guid(306900319a16fc54ab86712abd36fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample using Guid(306900319a16fc54ab86712abd36fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dead8b843216e1a9cadda9c00bc2ae') in 0.001733 seconds 
+  Import took 0.004929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.451780 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes
+  artifactKey: Guid(0e7129619a45c02438812a3aac87e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes using Guid(0e7129619a45c02438812a3aac87e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbda13f189269796c732968dc2720485') in 0.005275 seconds 
+  Import took 0.008906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes
+  artifactKey: Guid(0e7129619a45c02438812a3aac87e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes using Guid(0e7129619a45c02438812a3aac87e0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbda13f189269796c732968dc2720485') in 0.001674 seconds 
+  Import took 0.004827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.262986 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_1.unity
+  artifactKey: Guid(521456aa1001cb946a2d23e6c5eede2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_1.unity using Guid(521456aa1001cb946a2d23e6c5eede2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334490d3733bae29cf50a7a8e785b4e') in 0.011011 seconds 
+  Import took 0.014789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.542532 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_2.unity
+  artifactKey: Guid(27487f6aa3888674a8fcff39d24d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_2.unity using Guid(27487f6aa3888674a8fcff39d24d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd25130bea9424c43ff6960fdbe3e7d') in 0.006307 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002707 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_2.unity
+  artifactKey: Guid(27487f6aa3888674a8fcff39d24d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/Demo_2.unity using Guid(27487f6aa3888674a8fcff39d24d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd25130bea9424c43ff6960fdbe3e7d') in 0.002066 seconds 
+  Import took 0.004709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.765611 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoRiver.unity
+  artifactKey: Guid(894d87207197bd0479417a4667c47a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoRiver.unity using Guid(894d87207197bd0479417a4667c47a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d902663afdb59cee55095f08e7f2ab') in 0.005762 seconds 
+  Import took 0.009898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006257 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoRiver.unity
+  artifactKey: Guid(894d87207197bd0479417a4667c47a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoRiver.unity using Guid(894d87207197bd0479417a4667c47a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d902663afdb59cee55095f08e7f2ab') in 0.002064 seconds 
+  Import took 0.005659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.239782 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX.unity
+  artifactKey: Guid(0b03cbdb3fd29d94e8865e127112beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX.unity using Guid(0b03cbdb3fd29d94e8865e127112beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63de013f1bf89741ba04eb82586eaf4') in 0.005916 seconds 
+  Import took 0.010143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006453 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX.unity
+  artifactKey: Guid(0b03cbdb3fd29d94e8865e127112beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX.unity using Guid(0b03cbdb3fd29d94e8865e127112beab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63de013f1bf89741ba04eb82586eaf4') in 0.002046 seconds 
+  Import took 0.005699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.238422 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles
+  artifactKey: Guid(79a9b8d1d6c837c4aa6a3b8d4fb76d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles using Guid(79a9b8d1d6c837c4aa6a3b8d4fb76d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a560ef26d70cbf28352dbd0755b70b42') in 0.005723 seconds 
+  Import took 0.009293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007472 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles
+  artifactKey: Guid(79a9b8d1d6c837c4aa6a3b8d4fb76d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles using Guid(79a9b8d1d6c837c4aa6a3b8d4fb76d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a560ef26d70cbf28352dbd0755b70b42') in 0.002068 seconds 
+  Import took 0.005277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.641608 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles/Post-process Volume Profile.asset
+  artifactKey: Guid(60291765f46cbdd4baca7782c51951c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Scenes/DemoWaterFX_Profiles/Post-process Volume Profile.asset using Guid(60291765f46cbdd4baca7782c51951c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca9f17796bcb1a602022cc5e86295f4') in 0.014649 seconds 
+  Import took 0.018299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.983654 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core
+  artifactKey: Guid(e2e79226797075a45be41f310764c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core using Guid(e2e79226797075a45be41f310764c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2512103acdec14cc403a0d36a44dc80f') in 0.005596 seconds 
+  Import took 0.009142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007834 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core
+  artifactKey: Guid(e2e79226797075a45be41f310764c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core using Guid(e2e79226797075a45be41f310764c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2512103acdec14cc403a0d36a44dc80f') in 0.001702 seconds 
+  Import took 0.004585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282696 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample
+  artifactKey: Guid(3d83832b3270f044c8e1c6d31453461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample using Guid(3d83832b3270f044c8e1c6d31453461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9696afb545887267c57679e8bf9ef3b') in 0.005281 seconds 
+  Import took 0.008868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007998 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample
+  artifactKey: Guid(3d83832b3270f044c8e1c6d31453461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample using Guid(3d83832b3270f044c8e1c6d31453461c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9696afb545887267c57679e8bf9ef3b') in 0.001659 seconds 
+  Import took 0.004361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.963830 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Grass.asset
+  artifactKey: Guid(633d46083057f5a4d90f3c3ea03034eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Grass.asset using Guid(633d46083057f5a4d90f3c3ea03034eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae77c413a2cdadb4a76f1db24c365f0') in 0.046525 seconds 
+  Import took 0.050289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793632 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Sample.unity
+  artifactKey: Guid(2866a09451d862048acb6f22ed8e619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Sample.unity using Guid(2866a09451d862048acb6f22ed8e619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729bced9dc75725caf9596d84a3ec2b') in 0.005697 seconds 
+  Import took 0.009364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002923 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Sample.unity
+  artifactKey: Guid(2866a09451d862048acb6f22ed8e619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Sample.unity using Guid(2866a09451d862048acb6f22ed8e619a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729bced9dc75725caf9596d84a3ec2b') in 0.001915 seconds 
+  Import took 0.004792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.748568 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Material
+  artifactKey: Guid(eb0c81fe9dbcb60498b71f3544735f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Material using Guid(eb0c81fe9dbcb60498b71f3544735f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838fafd8acbafa2056fa508c63bec207') in 0.005954 seconds 
+  Import took 0.009627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091095 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Material/Grass.mat
+  artifactKey: Guid(b9755b36839b4204894d5bc86b5c7bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Material/Grass.mat using Guid(b9755b36839b4204894d5bc86b5c7bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca2a2160e9436190b2f0d806fb6a036') in 0.365515 seconds 
+  Import took 0.369256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.153447 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures
+  artifactKey: Guid(ca5e92fc504603b4b9baf8d488c2ff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures using Guid(ca5e92fc504603b4b9baf8d488c2ff08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae751920c648577d42ecf2c41b526e3') in 0.005718 seconds 
+  Import took 0.009478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049922 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_albedo_512_512.png
+  artifactKey: Guid(2360a48228e9b4b40b7b45a66b541834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_albedo_512_512.png using Guid(2360a48228e9b4b40b7b45a66b541834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c8a03a4c9f83649c5c3a718925e4d') in 0.019893 seconds 
+  Import took 0.023610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_normal_512_512.png
+  artifactKey: Guid(55dfc00ec2eb1a045acff5759b93ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_normal_512_512.png using Guid(55dfc00ec2eb1a045acff5759b93ca8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8299ddf554d335d060b89dc4589b752f') in 0.014461 seconds 
+  Import took 0.018139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_height_512_512.png
+  artifactKey: Guid(1c4c6a9fc83d2ad4eb610e5f66812ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_height_512_512.png using Guid(1c4c6a9fc83d2ad4eb610e5f66812ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caf855f3d838e277279945e2e80ec15') in 0.009891 seconds 
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.279496 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples
+  artifactKey: Guid(ad79873aaed88544db44e5f8ae3ef3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples using Guid(ad79873aaed88544db44e5f8ae3ef3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab0ccc5f7debf6daefdf0a12fd7b6d1') in 0.005653 seconds 
+  Import took 0.009501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.333769 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets
+  artifactKey: Guid(6c348e316e3980c418d90547963402d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets using Guid(6c348e316e3980c418d90547963402d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9a2264f330e7583bfa662a1c06466f') in 0.005168 seconds 
+  Import took 0.009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.395927 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands
+  artifactKey: Guid(deeae63ae165ff940b384ee330f53c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands using Guid(deeae63ae165ff940b384ee330f53c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49beba29ae614db3fe3374b3bf49c081') in 0.005547 seconds 
+  Import took 0.009303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands
+  artifactKey: Guid(deeae63ae165ff940b384ee330f53c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands using Guid(deeae63ae165ff940b384ee330f53c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49beba29ae614db3fe3374b3bf49c081') in 0.001543 seconds 
+  Import took 0.004861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.918455 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes
+  artifactKey: Guid(89f52f892d4fc754b873d42e448feeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes using Guid(89f52f892d4fc754b873d42e448feeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634bdfa7a83c84eb7891ad4dde9241cd') in 0.005716 seconds 
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes
+  artifactKey: Guid(89f52f892d4fc754b873d42e448feeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes using Guid(89f52f892d4fc754b873d42e448feeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634bdfa7a83c84eb7891ad4dde9241cd') in 0.001385 seconds 
+  Import took 0.004433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089170 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes/TreePrefabs_DistantLands.asset
+  artifactKey: Guid(ed82ccc26db756f4f8cf1e46af1cce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes/TreePrefabs_DistantLands.asset using Guid(ed82ccc26db756f4f8cf1e46af1cce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7436f9f151e21ff1c532ab0df8f9ffb3') in 0.006521 seconds 
+  Import took 0.010136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes/Trees_DistantLands.asset
+  artifactKey: Guid(5ada02f12a3585b42b1407f4b15151ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prototypes/Trees_DistantLands.asset using Guid(5ada02f12a3585b42b1407f4b15151ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a152860e6a79f76f91cda15b2cee50c') in 0.007470 seconds 
+  Import took 0.010647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.286649 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs
+  artifactKey: Guid(3797f460af09e1b46ac53f1b34c539cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs using Guid(3797f460af09e1b46ac53f1b34c539cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4992b08a3f685852a46d44159706bfb') in 0.006007 seconds 
+  Import took 0.009730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs
+  artifactKey: Guid(3797f460af09e1b46ac53f1b34c539cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs using Guid(3797f460af09e1b46ac53f1b34c539cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4992b08a3f685852a46d44159706bfb') in 0.001530 seconds 
+  Import took 0.004366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089077 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Fir Tree 5.prefab
+  artifactKey: Guid(c943e37c84756ac4e809c7790d9ba881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Fir Tree 5.prefab using Guid(c943e37c84756ac4e809c7790d9ba881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11989030769290ef83cdada822630d55') in 0.021668 seconds 
+  Import took 0.025483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Stump 1.prefab
+  artifactKey: Guid(426454e7a32c25f4fae01f58722c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Stump 1.prefab using Guid(426454e7a32c25f4fae01f58722c6944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca31732013570002a98c1a95492bd06') in 0.016529 seconds 
+  Import took 0.019946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Jungle Tree 8.prefab
+  artifactKey: Guid(ee22fd94a14e96e4ebb960ddb85ea585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Jungle Tree 8.prefab using Guid(ee22fd94a14e96e4ebb960ddb85ea585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73986d7f7508741712b50520078bc5ea') in 0.011843 seconds 
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Large Jungle Tree 3.prefab
+  artifactKey: Guid(70449fc2599c37a409dc726a23b522ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Large Jungle Tree 3.prefab using Guid(70449fc2599c37a409dc726a23b522ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8984d3457357d272d3cbff8137e192e') in 0.013636 seconds 
+  Import took 0.017128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Fir Tree 6.prefab
+  artifactKey: Guid(a8d0359a40457304797a822fdeb25eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Distant Lands/Prefabs/Fir Tree 6.prefab using Guid(a8d0359a40457304797a822fdeb25eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061c7e91017ef32bca9ee5ec04a126ce') in 0.011147 seconds 
+  Import took 0.014708 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (245ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 4.089900 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.060100 ms MarkObjects: 2.576300 ms  DeleteObjects: 1.198800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.633327 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio
+  artifactKey: Guid(8c72bb5b512c11e4fbe306dd26792de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio using Guid(8c72bb5b512c11e4fbe306dd26792de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86935bd968258487e148168b65e003c') in 0.009558 seconds 
+  Import took 0.013580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.645034 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes
+  artifactKey: Guid(06056776981a9d94ea70b8fce4011a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes using Guid(06056776981a9d94ea70b8fce4011a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d608fa784231ecb421fd4f535989f48') in 0.002140 seconds 
+  Import took 0.005797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004122 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes
+  artifactKey: Guid(06056776981a9d94ea70b8fce4011a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes using Guid(06056776981a9d94ea70b8fce4011a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d608fa784231ecb421fd4f535989f48') in 0.001422 seconds 
+  Import took 0.004640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988083 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_00.unity
+  artifactKey: Guid(61b5c6590d9bc37489396cc4f20368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_00.unity using Guid(61b5c6590d9bc37489396cc4f20368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e934a19842657620beb98c8144b46147') in 0.011039 seconds 
+  Import took 0.014757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.589127 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_01.unity
+  artifactKey: Guid(cabf67b053c533c4a9947d396f1b54b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_01.unity using Guid(cabf67b053c533c4a9947d396f1b54b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af73cf17270aba3b9fe921a19904c7d') in 0.006419 seconds 
+  Import took 0.010090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.077822 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_04.unity
+  artifactKey: Guid(543522a35122eca46953266291728ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_04.unity using Guid(543522a35122eca46953266291728ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b761885ce4a6174e12677343d090f7') in 0.005996 seconds 
+  Import took 0.009615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_04.unity
+  artifactKey: Guid(543522a35122eca46953266291728ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_04.unity using Guid(543522a35122eca46953266291728ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b761885ce4a6174e12677343d090f7') in 0.001861 seconds 
+  Import took 0.004349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.375154 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_RuntimePainting.unity
+  artifactKey: Guid(80f8d798cdd38b64c9a0f24ce3d4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_RuntimePainting.unity using Guid(80f8d798cdd38b64c9a0f24ce3d4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b4d63f80a28783b52b5fce5816829f') in 0.005615 seconds 
+  Import took 0.009269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003225 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_RuntimePainting.unity
+  artifactKey: Guid(80f8d798cdd38b64c9a0f24ce3d4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Scenes/Demo_RuntimePainting.unity using Guid(80f8d798cdd38b64c9a0f24ce3d4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b4d63f80a28783b52b5fce5816829f') in 0.001889 seconds 
+  Import took 0.004738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (273ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2904.
+Total: 4.801200 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 2.651800 ms  DeleteObjects: 1.833700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
