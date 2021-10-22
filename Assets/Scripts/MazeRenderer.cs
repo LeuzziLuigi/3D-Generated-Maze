@@ -19,6 +19,12 @@ public class MazeRenderer : MonoBehaviour
     private Transform wallPrefab = null;
     [SerializeField]
     private Transform floorPrefab = null;
+    [SerializeField]
+    private Transform startNodePrefab = null;
+    [SerializeField]
+    private Transform referenceNodePrefab = null;
+    [SerializeField]
+    private Transform finishNodePrefab = null;
 
     [SerializeField]
     [Range(1, 999999)]
@@ -33,7 +39,11 @@ public class MazeRenderer : MonoBehaviour
 
     private void Draw(WallState[,] maze)
     {
-        
+        var rang = new System.Random(seed);
+        bool startPlaced = false;
+        bool referencePlaced = false;
+        bool finishPlaced = false;
+
 
         for (int i=0; i < width; i++)
         {
@@ -41,11 +51,39 @@ public class MazeRenderer : MonoBehaviour
             {
                 var cell = maze[i, j];
                 var position = new Vector3(-width / 2 + i, 0, -height / 2 + j);
-                
-                //var floor = Instantiate(floorPrefab, transform);
-                //floor.localScale = new Vector3(1, 1, 1);
-                
-                if(cell.HasFlag(WallState.UP))
+
+                var floor = Instantiate(floorPrefab, transform);
+                floor.position = position + new Vector3(0, -1, size / 2);
+                floor.localScale = new Vector3(size, floor.localScale.y, size*2);
+
+                //Place the start node exactly ONE time
+                if (startPlaced == false)
+                {
+                    startPlaced = true;
+                    var startNode = Instantiate(startNodePrefab, transform);
+                    startNode.position = position + new Vector3(0, 0, 0);
+                    startNode.localScale = new Vector3(startNode.localScale.x, startNode.localScale.y * 10, startNode.localScale.z);
+                }
+
+                //Place the finish node exactly ONE time
+                if (finishPlaced == false && i == width-1 && j == height-1)
+                {
+                    finishPlaced = true;
+                    var finishNode = Instantiate(finishNodePrefab, transform);
+                    finishNode.position = position + new Vector3(0, 0, 0);
+                    finishNode.localScale = new Vector3(finishNode.localScale.x, finishNode.localScale.y * 10, finishNode.localScale.z);
+                }
+
+                //Place the reference node exactly ONE time
+                if (referencePlaced == false && i == rang.Next(0, width) && j == rang.Next(0, height))
+                {
+                    var referenceNode = Instantiate(referenceNodePrefab, transform);
+                    referenceNode.position = position + new Vector3(0, 0, 0);
+                    referenceNode.localScale = new Vector3(referenceNode.localScale.x, referenceNode.localScale.y * 10, referenceNode.localScale.z);
+                    referencePlaced = true;
+                }
+
+                if (cell.HasFlag(WallState.UP))
                 {
                     var topWall = Instantiate(wallPrefab, transform) as Transform;
                     topWall.position = position + new Vector3(0, 0, size/2);
