@@ -15,12 +15,12 @@ D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51227
+55209
 Successfully changed project path to: D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 D:/Coding/Projects/3D Random Maze/3D-Generated-Maze
 Using Asset Import Pipeline V2.
 Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 39.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -46,73 +46,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001588 seconds.
+Registered in 0.001662 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  0.831 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
+	ReloadAssembly (831ms)
 		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
+		EndReloadAssembly (344ms)
 			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (138ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (143ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002192 seconds.
+Registered in 0.002340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.105 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1070ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (493ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (512ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (250ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (266ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -121,14 +121,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2431 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.9 MB.
-System memory in use after: 138.5 MB.
+System memory in use before: 139.5 MB.
+System memory in use after: 139.0 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2863.
-Total: 3.440800 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.613400 ms  DeleteObjects: 0.469000 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 3.635400 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.807400 ms  DeleteObjects: 0.466100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -142,523 +142,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(90ebcf22138d31c4d98dadd23b962c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(90ebcf22138d31c4d98dadd23b962c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796ded605ebb885678edce60a5fbb051') in 0.010623 seconds 
-  Import took 0.014394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.010926 seconds 
-  Import took 0.014418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.698211 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64459a96fc36762acd7a9489c2b69bc8') in 0.006285 seconds 
-  Import took 0.010096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016623 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64459a96fc36762acd7a9489c2b69bc8') in 0.001893 seconds 
-  Import took 0.005538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.191450 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor
-  artifactKey: Guid(83b687eddf2507540b2ba1002e73c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor using Guid(83b687eddf2507540b2ba1002e73c202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a21028809c1dbb1f63b43d96ccd0ad') in 0.004987 seconds 
-  Import took 0.008465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.590629 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime
-  artifactKey: Guid(e28879aacec79e14a8f9510e45449678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime using Guid(e28879aacec79e14a8f9510e45449678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432638be602700c255d2c5f400102804') in 0.005333 seconds 
-  Import took 0.009004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.489164 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor/Scripts
-  artifactKey: Guid(d02815eee0ae46e41ad0d69e53162cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor/Scripts using Guid(d02815eee0ae46e41ad0d69e53162cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f789e0158d2c02b4b71f6efbbb06a5c3') in 0.005067 seconds 
-  Import took 0.010866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.128011 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor/Scripts/DayNightCycle
-  artifactKey: Guid(3ba4fba9fb114d14daca8699b76b14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Editor/Scripts/DayNightCycle using Guid(3ba4fba9fb114d14daca8699b76b14b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dce58bb21d9f02e952e344551533d7') in 0.007369 seconds 
-  Import took 0.011100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.040725 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample
-  artifactKey: Guid(2df03c33bc0b01545b8c224da0cd4fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample using Guid(2df03c33bc0b01545b8c224da0cd4fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1093c866702e9bbd62498d59c5c3a5b') in 0.008473 seconds 
-  Import took 0.012125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.906570 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures
-  artifactKey: Guid(8334ba08844c2d944b78191872494cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures using Guid(8334ba08844c2d944b78191872494cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd38f35176f3be6b57cf169c85d0bce') in 0.006325 seconds 
-  Import took 0.010032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051696 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/CloudNoise.png
-  artifactKey: Guid(433abcf8c760aa746a5580cd0a190b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/CloudNoise.png using Guid(433abcf8c760aa746a5580cd0a190b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67bb09212fad6b4239ef3f74353edab') in 0.050909 seconds 
-  Import took 0.054852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/PerlinNoise.png
-  artifactKey: Guid(7f313a2cde54f8e4ba19db94edca915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/PerlinNoise.png using Guid(7f313a2cde54f8e4ba19db94edca915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8310ef0c66808c8d4ac767ae07b54d') in 0.014586 seconds 
-  Import took 0.017904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.872992 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Shaders
-  artifactKey: Guid(db127a625b9ee034baed09d4ebd7176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Shaders using Guid(db127a625b9ee034baed09d4ebd7176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5fbc8d211252180c5547752fe2ec26') in 0.005518 seconds 
-  Import took 0.011457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.468477 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Scripts
-  artifactKey: Guid(77a4334784cc50642aaed74a662c3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Scripts using Guid(77a4334784cc50642aaed74a662c3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b121f33e38d70a1362a7b0c234b2d68') in 0.001636 seconds 
-  Import took 0.005366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Scripts
-  artifactKey: Guid(77a4334784cc50642aaed74a662c3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Scripts using Guid(77a4334784cc50642aaed74a662c3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b121f33e38d70a1362a7b0c234b2d68') in 0.001544 seconds 
-  Import took 0.004520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.685078 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles
-  artifactKey: Guid(73519ac058dab824498b577d8bcac265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles using Guid(73519ac058dab824498b577d8bcac265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d07f17ce4e6844e12fc35f10ec65e7') in 0.005906 seconds 
-  Import took 0.009534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001651 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles
-  artifactKey: Guid(73519ac058dab824498b577d8bcac265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles using Guid(73519ac058dab824498b577d8bcac265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d07f17ce4e6844e12fc35f10ec65e7') in 0.001602 seconds 
-  Import took 0.004239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095444 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/DefaulDNC.asset
-  artifactKey: Guid(038b4db3822d0934bafe44586a5925fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/DefaulDNC.asset using Guid(038b4db3822d0934bafe44586a5925fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a7913385913f41b5a8b5fc2a6f31e') in 0.009394 seconds 
-  Import took 0.013369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/StarryNight.asset
-  artifactKey: Guid(8585bdf0dc6491649be0609424d9661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/StarryNight.asset using Guid(8585bdf0dc6491649be0609424d9661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1757b8f185e6ac6bc5d48df8693f1737') in 0.299077 seconds 
-  Import took 0.302743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/SunnyDay.asset
-  artifactKey: Guid(b4b856d2b3d3c164fbcf5c87fc2abee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/DefaultProfiles/SunnyDay.asset using Guid(b4b856d2b3d3c164fbcf5c87fc2abee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffa20ab19b3e6b2f7addc1ea48f7272') in 0.113220 seconds 
-  Import took 0.116914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.960466 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Resources
-  artifactKey: Guid(5a4f409a17acb104fa9d13ff1ea7478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Resources using Guid(5a4f409a17acb104fa9d13ff1ea7478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0efae1e15b9257b68855c286918bd7d') in 0.005040 seconds 
-  Import took 0.008532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048823 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Resources/JupiterSettings.asset
-  artifactKey: Guid(304bf31ea7c9c5443812ff14450b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Resources/JupiterSettings.asset using Guid(304bf31ea7c9c5443812ff14450b262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0aeddc09b6ab47dfcb2a3311728e87') in 0.008939 seconds 
-  Import took 0.012764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.659691 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps
-  artifactKey: Guid(0b3153773c443d94eaa70ba56a615a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps using Guid(0b3153773c443d94eaa70ba56a615a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d2d8ea38e0ef47cc985bdb5e6f53be') in 0.007189 seconds 
-  Import took 0.011029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073634 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Moon.cubemap
-  artifactKey: Guid(ef0c7a1c7205a274c8ae147b1fc68287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Moon.cubemap using Guid(ef0c7a1c7205a274c8ae147b1fc68287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57137b834c99f9435cf5ad350773bc83') in 0.093184 seconds 
-  Import took 0.097301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/StrokeOverlay.cubemap
-  artifactKey: Guid(f441ff010e8953541b03c7b6cf64f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/StrokeOverlay.cubemap using Guid(f441ff010e8953541b03c7b6cf64f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c8b7f30be3811e4714e3a408a2d64') in 0.069232 seconds 
-  Import took 0.072573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Stars.cubemap
-  artifactKey: Guid(59c7b8a8456c65d4aa28c47a49e4ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Stars.cubemap using Guid(59c7b8a8456c65d4aa28c47a49e4ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28f46792de1cf6710ef44a7828889f') in 0.073605 seconds 
-  Import took 0.077215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Sun.cubemap
-  artifactKey: Guid(fd076cc0fa28689468954071d2137785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Sun.cubemap using Guid(fd076cc0fa28689468954071d2137785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fca80c92f8d594e987c4e78b49a302') in 0.073698 seconds 
-  Import took 0.077161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.248245 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes
-  artifactKey: Guid(86fbf245a1a7d924381ca8536d6611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes using Guid(86fbf245a1a7d924381ca8536d6611ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848b9f3651a0e5236d82fff6bcd8cf4f') in 0.001844 seconds 
-  Import took 0.005549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.118989 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle
-  artifactKey: Guid(b9c745a61795a7c498492d529ef329c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle using Guid(b9c745a61795a7c498492d529ef329c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc521eedb29a9effeba759f210b5b445') in 0.001505 seconds 
-  Import took 0.007489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.078962 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle/DayNightCycleProfile.asset
-  artifactKey: Guid(f1452483dfc6faf46821b29dba6061e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle/DayNightCycleProfile.asset using Guid(f1452483dfc6faf46821b29dba6061e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bafe4f9f3a40724be14575b55cd12e') in 0.005852 seconds 
-  Import took 0.009534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle/SkyProfile-741169173868421736.asset
-  artifactKey: Guid(e5bc0ed35fefb0c40a37544c3451413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle/SkyProfile-741169173868421736.asset using Guid(e5bc0ed35fefb0c40a37544c3451413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b19e7e6e97383245b655f2406e57260') in 0.233504 seconds 
-  Import took 0.237512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.435252 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle.unity
-  artifactKey: Guid(dd938edb90000a947b131166dfda87f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/DayNightCycle.unity using Guid(dd938edb90000a947b131166dfda87f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f355b66ba7de79b06f76a2b7c9c9f8') in 0.005866 seconds 
-  Import took 0.009543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.966247 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight-Baked.unity
-  artifactKey: Guid(0c31d4f197a3a024bb73ffc6ea9ad0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight-Baked.unity using Guid(0c31d4f197a3a024bb73ffc6ea9ad0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bcc6693ef88ce9655f9f10f7917dc2') in 0.006362 seconds 
-  Import took 0.010099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002318 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight-Baked.unity
-  artifactKey: Guid(0c31d4f197a3a024bb73ffc6ea9ad0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight-Baked.unity using Guid(0c31d4f197a3a024bb73ffc6ea9ad0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bcc6693ef88ce9655f9f10f7917dc2') in 0.001747 seconds 
-  Import took 0.005433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.328472 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight.unity
-  artifactKey: Guid(f82c53e4316f3bf4a869484ffcb662fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/StarryNight.unity using Guid(f82c53e4316f3bf4a869484ffcb662fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73acb51572d7b0f106e52785cb834c5') in 0.005861 seconds 
-  Import took 0.009613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.939358 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/SunnyDay.unity
-  artifactKey: Guid(aabd5d44832376044a3d44c03310e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/SunnyDay.unity using Guid(aabd5d44832376044a3d44c03310e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da31ac39167e4ef815ee611fe7a2dbd5') in 0.005616 seconds 
-  Import took 0.009355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 330.668958 seconds.
-  path: Assets/Sky.prefab
-  artifactKey: Guid(8a3b349f5de0c7e469e60425a893584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sky.prefab using Guid(8a3b349f5de0c7e469e60425a893584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69f0650f5b9325d0dee019ec2fcc63b') in 0.015792 seconds 
-  Import took 0.019938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.256085 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs
-  artifactKey: Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs using Guid(3769a8e69ac4c5d4d8307439f30f6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff6006a30908a91c8e611e4098621b8') in 0.005156 seconds 
-  Import took 0.011427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.239197 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller
-  artifactKey: Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller using Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd5d5b847fd61f87fcccb02d489567') in 0.005130 seconds 
-  Import took 0.008775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001031 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller
-  artifactKey: Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller using Guid(580ccf6ab3889bd458d65282d20b6821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd5d5b847fd61f87fcccb02d489567') in 0.001389 seconds 
-  Import took 0.004171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.060808 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated
-  artifactKey: Guid(41f3b0c89f095d2409e113dcc91d8ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated using Guid(41f3b0c89f095d2409e113dcc91d8ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26079c42e032fa4a391db2ad498235d2') in 0.005511 seconds 
-  Import took 0.009317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048276 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ClickToMoveWalker_Animated.prefab
-  artifactKey: Guid(2b9ee834208526843a93587c6c0e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ClickToMoveWalker_Animated.prefab using Guid(2b9ee834208526843a93587c6c0e7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1ae94f7ff2d0f46c98c46ebbe4f0ca') in 0.146609 seconds 
-  Import took 0.150784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_B_Animated.prefab
-  artifactKey: Guid(cee2bd08b353c524e8b78d71dfc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_B_Animated.prefab using Guid(cee2bd08b353c524e8b78d71dfc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44998bf4d15bfbcd37a16a536ccf0c22') in 0.023028 seconds 
-  Import took 0.027186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/TopDownWalker_Animated.prefab
-  artifactKey: Guid(8dfc15a469c11674591a3365edc0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/TopDownWalker_Animated.prefab using Guid(8dfc15a469c11674591a3365edc0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde9f892a7a9057a2266fdebca805b7e') in 0.019659 seconds 
-  Import took 0.023621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_A_Animated.prefab
-  artifactKey: Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_A_Animated.prefab using Guid(41c209abb2d73574a9baf7bf474510cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ef04d6230b4fe67c99ebf217ec4901') in 0.019745 seconds 
-  Import took 0.023990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/FirstPersonWalker_Audio.prefab
-  artifactKey: Guid(5d075d3ed32dfe1498e31454964d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/FirstPersonWalker_Audio.prefab using Guid(5d075d3ed32dfe1498e31454964d07e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87e4543f6c262b59d41508a7f57782') in 0.008467 seconds 
-  Import took 0.011556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab
-  artifactKey: Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/SideScroller_Animated.prefab using Guid(b039d8fa71989eb46a8361d2014cb081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad5dcbe99826e1ba12005825da784c') in 0.019867 seconds 
-  Import took 0.024111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab
-  artifactKey: Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imports/Character Movement Fundamentals/Prefabs/Controller/Animated/ThirdPersonWalker_C_Animated.prefab using Guid(3914f0cdfe0e9574fb79da97e725600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79850bbbef55869e447f10f6abc7552') in 0.021281 seconds 
-  Import took 0.025338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.070481 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/SunnyDay/SkyProfile-064293594558421736.asset
-  artifactKey: Guid(aa78d282081ce6443affabf3d315aaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Scenes/SunnyDay/SkyProfile-064293594558421736.asset using Guid(aa78d282081ce6443affabf3d315aaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa560f53dc36e1ba5c3d5a8208ac98d9') in 0.025317 seconds 
-  Import took 0.029183 seconds .
+  path: Assets/Polaris - Low Poly Ecosystem
+  artifactKey: Guid(6d78d29ad1a68b642be9f099451fb893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem using Guid(6d78d29ad1a68b642be9f099451fb893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe5e690b3a857a6dda277f9dd583834') in 0.010063 seconds 
+  Import took 0.013425 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002158 seconds.
+Registered in 0.002909 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.064 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
+	ReloadAssembly (1064ms)
 		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (69ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (466ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (246ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2273 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.0 MB.
-System memory in use after: 126.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2908.
-Total: 4.046400 ms (FindLiveObjects: 0.363000 ms CreateObjectMapping: 0.063800 ms MarkObjects: 3.075600 ms  DeleteObjects: 0.542000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.362881 seconds.
-  path: Assets/Sunny Day Sky.prefab
-  artifactKey: Guid(9f5b0a918da20264cbc2951814ce9171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sunny Day Sky.prefab using Guid(9f5b0a918da20264cbc2951814ce9171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd34071dbe8f7752ca7e90cd0bc535b8') in 0.025257 seconds 
-  Import took 0.029517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001522 seconds.
-  path: Assets/Sunny Day Sky.prefab
-  artifactKey: Guid(9f5b0a918da20264cbc2951814ce9171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sunny Day Sky.prefab using Guid(9f5b0a918da20264cbc2951814ce9171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd34071dbe8f7752ca7e90cd0bc535b8') in 0.003811 seconds 
-  Import took 0.007353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.662283 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ffa76f4b1a30ea1edacae3edd099f3') in 0.004137 seconds 
-  Import took 0.007961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004700 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ffa76f4b1a30ea1edacae3edd099f3') in 0.001775 seconds 
-  Import took 0.004863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.446898 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007181 seconds 
-  Import took 0.010982 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002311 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1024ms)
-		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (880ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (479ms)
+			SetupLoadedEditorAssemblies (487ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (261ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (258ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -667,11 +187,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2273 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.1 MB.
-System memory in use after: 126.7 MB.
+System memory in use before: 123.9 MB.
+System memory in use after: 123.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2910.
-Total: 3.488400 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.060400 ms MarkObjects: 2.612400 ms  DeleteObjects: 0.555000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2871.
+Total: 3.511500 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.621900 ms  DeleteObjects: 0.534400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -684,970 +204,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 17.538920 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(581f23caa2a4db4439d9b67d9e33548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(581f23caa2a4db4439d9b67d9e33548d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cab67fb943fe849763c5555adbf8bb') in 0.004894 seconds 
-  Import took 0.008556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.310116 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models
-  artifactKey: Guid(7f375a18851c52149bf3129268e9673c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models using Guid(7f375a18851c52149bf3129268e9673c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f748f9ad980cd7f10ce7da4bac2e541') in 0.004941 seconds 
-  Import took 0.008737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055315 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid0.fbx
-  artifactKey: Guid(b0c1d9f1f71dac242bf1e740df1d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid0.fbx using Guid(b0c1d9f1f71dac242bf1e740df1d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a5a3a041df3e3d683091d4690ce030') in 0.109677 seconds 
-  Import took 0.113707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid1.fbx
-  artifactKey: Guid(4696ad07c62c7214db2580f0ec1b95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid1.fbx using Guid(4696ad07c62c7214db2580f0ec1b95b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c6e846350bac8c5d9434d18deb0f93') in 0.018511 seconds 
-  Import took 0.021690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid9.fbx
-  artifactKey: Guid(6f7abdaf5814a8d418b35f1669addf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid9.fbx using Guid(6f7abdaf5814a8d418b35f1669addf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7c87fb8fabef04b6b0ff75c13bf915') in 0.019035 seconds 
-  Import took 0.022698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid5.fbx
-  artifactKey: Guid(e9215a6e4d62f274d808f3bc09907a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid5.fbx using Guid(e9215a6e4d62f274d808f3bc09907a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883514f7b11dc1d400bd067f60003fae') in 0.018075 seconds 
-  Import took 0.021163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid2.fbx
-  artifactKey: Guid(31a151ed30b773c4291a88736a04b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid2.fbx using Guid(31a151ed30b773c4291a88736a04b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35f4967aa63c6ca97c5c983fb9a6d8') in 0.018998 seconds 
-  Import took 0.022872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid10.fbx
-  artifactKey: Guid(b5661883f1e046c448831153b67fcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid10.fbx using Guid(b5661883f1e046c448831153b67fcd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69507c71e99a5b9618d0e7218fc28376') in 0.022620 seconds 
-  Import took 0.026526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid13.fbx
-  artifactKey: Guid(4fa4f3a0c335316429a5e3cad20987b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid13.fbx using Guid(4fa4f3a0c335316429a5e3cad20987b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f5269490c6ed6cefcf981de54e92df') in 0.019025 seconds 
-  Import took 0.022749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid4.fbx
-  artifactKey: Guid(2be8ef80a0f55b049b3fdb04a887bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid4.fbx using Guid(2be8ef80a0f55b049b3fdb04a887bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd25424b8a3e89d8f4c7e5db6c67bd') in 0.018853 seconds 
-  Import took 0.022574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid7.fbx
-  artifactKey: Guid(3f5249ac2d9bdcb429e6dd1b53bc14be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid7.fbx using Guid(3f5249ac2d9bdcb429e6dd1b53bc14be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21070b050fa8a13facd7a3e238f14334') in 0.019549 seconds 
-  Import took 0.022674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid12.fbx
-  artifactKey: Guid(7807d55b162ded547a688d7312ece635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid12.fbx using Guid(7807d55b162ded547a688d7312ece635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606051bb495a6f1f5fe06da7c056f605') in 0.019511 seconds 
-  Import took 0.023190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid8.fbx
-  artifactKey: Guid(9081e385818e5a34fa640710053249b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid8.fbx using Guid(9081e385818e5a34fa640710053249b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a377ca1a285ea49be4ea10688bdaaf85') in 0.017570 seconds 
-  Import took 0.021661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid3.fbx
-  artifactKey: Guid(d3b8adb1a8ed2f9419de072e5beb84f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid3.fbx using Guid(d3b8adb1a8ed2f9419de072e5beb84f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2cafd9038356c3221a523ec569e55c') in 0.018513 seconds 
-  Import took 0.022102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid6.fbx
-  artifactKey: Guid(b1a74c377a6c24641904108eafa2858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid6.fbx using Guid(b1a74c377a6c24641904108eafa2858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab90efd65693e1d4eb2dd5ed39e456f') in 0.019423 seconds 
-  Import took 0.022711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/WireframeMeshes.asset
-  artifactKey: Guid(8d1a6310726c8af46a654a63d731e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/WireframeMeshes.asset using Guid(8d1a6310726c8af46a654a63d731e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd1057a34427e388aed198e43edcd0') in 0.070613 seconds 
-  Import took 0.073827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid11.fbx
-  artifactKey: Guid(ce3db579ad4acf1439cffc5585e7b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Models/Grid11.fbx using Guid(ce3db579ad4acf1439cffc5585e7b514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9cf9bcf6f9fcaba7db1044b3d5c1c') in 0.017805 seconds 
-  Import took 0.021083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.871527 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs
-  artifactKey: Guid(428d19e739b7d64448dd8b3c5691c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs using Guid(428d19e739b7d64448dd8b3c5691c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48dc622a7df135b38d80c2c7e1f7f07') in 0.001814 seconds 
-  Import took 0.005495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067350 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_campervan.prefab
-  artifactKey: Guid(7012ab91eb52ada4b9222fed13391e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_campervan.prefab using Guid(7012ab91eb52ada4b9222fed13391e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c703a9b7730599935476dd8b622e84be') in 0.111108 seconds 
-  Import took 0.115099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab
-  artifactKey: Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab using Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ff8ecbac60b66f3d830e67a57978e') in 0.017175 seconds 
-  Import took 0.020803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_wind_turbine.prefab
-  artifactKey: Guid(8076c64c27533d64eb3b5ca28b94e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_wind_turbine.prefab using Guid(8076c64c27533d64eb3b5ca28b94e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178bc0e48c610d328a37ce4639591dcd') in 0.017694 seconds 
-  Import took 0.021237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab
-  artifactKey: Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab using Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ff8ecbac60b66f3d830e67a57978e') in 0.009094 seconds 
-  Import took 0.012604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab
-  artifactKey: Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab using Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e7ee09e1987edea503742811f9ce6f') in 0.018608 seconds 
-  Import took 0.022313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_water_tower.prefab
-  artifactKey: Guid(e3d650ec0707a62408ab5bd72773a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_water_tower.prefab using Guid(e3d650ec0707a62408ab5bd72773a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21663cfde962488d17e192f025ba16e') in 0.016865 seconds 
-  Import took 0.020833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007247 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab
-  artifactKey: Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab using Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e7ee09e1987edea503742811f9ce6f') in 0.009490 seconds 
-  Import took 0.013071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.374624 seconds.
-  path: Assets/Prefabs/prefab_polytope_campervan.prefab
-  artifactKey: Guid(7012ab91eb52ada4b9222fed13391e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/prefab_polytope_campervan.prefab using Guid(7012ab91eb52ada4b9222fed13391e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4f013f80952d8bfa6a1ddc38567c81') in 0.010215 seconds 
-  Import took 0.014356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.801506 seconds.
-  path: Assets/Prefabs/Sunny Day Sky.prefab
-  artifactKey: Guid(b89b3fabf8f076745bd2d82a3d74fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sunny Day Sky.prefab using Guid(b89b3fabf8f076745bd2d82a3d74fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6793641beaf278614a379194ad0b6478') in 0.006609 seconds 
-  Import took 0.010191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.909682 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aa61bbe192302ca0a885f0ca6fd808') in 0.002282 seconds 
-  Import took 0.006199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aa61bbe192302ca0a885f0ca6fd808') in 0.001695 seconds 
-  Import took 0.004775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.492302 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models
-  artifactKey: Guid(ff117d35eb911074d9e376b95410cae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models using Guid(ff117d35eb911074d9e376b95410cae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1692e8cf21100f75f3edca69190ba0') in 0.001720 seconds 
-  Import took 0.005438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079288 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/autumn-trees.fbx
-  artifactKey: Guid(de58b283718058b4c85bb991e8d5a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/autumn-trees.fbx using Guid(de58b283718058b4c85bb991e8d5a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1d4630e5777a0d5ae58d02114468d5') in 0.036872 seconds 
-  Import took 0.040683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_03.fbx
-  artifactKey: Guid(4637c3a573a0a9148b842e982c35de9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_03.fbx using Guid(4637c3a573a0a9148b842e982c35de9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10300b22ccdce361f618a90eae425567') in 0.021192 seconds 
-  Import took 0.024945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/snowman.fbx
-  artifactKey: Guid(5393bc8b17d70e44995f9681403e36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/snowman.fbx using Guid(5393bc8b17d70e44995f9681403e36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6036baf32c663d1bdc26ae0338720e0') in 0.102283 seconds 
-  Import took 0.106133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/pinetree.fbx
-  artifactKey: Guid(b4bb4badac762004cbce584158cb7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/pinetree.fbx using Guid(b4bb4badac762004cbce584158cb7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16be9de4324dffb9a7f78c9b68f3f23') in 0.019473 seconds 
-  Import took 0.022696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/grass.fbx
-  artifactKey: Guid(55ec050b31858f44d8708cc887605cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/grass.fbx using Guid(55ec050b31858f44d8708cc887605cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f4345b8ca6d61501c9abb64cebfb0e') in 0.018243 seconds 
-  Import took 0.021913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/BlockyTree.fbx
-  artifactKey: Guid(53c7689dffb0f774fb2eb22889ae504d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/BlockyTree.fbx using Guid(53c7689dffb0f774fb2eb22889ae504d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9745a2d3839b6625e899f6ffdb064460') in 0.044322 seconds 
-  Import took 0.048000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_05.fbx
-  artifactKey: Guid(2eef5ce709657ae4fbd4f74a88689e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_05.fbx using Guid(2eef5ce709657ae4fbd4f74a88689e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a02a2b0d947b796ee2ede7cbbf7dea6') in 0.014368 seconds 
-  Import took 0.017539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_02.fbx
-  artifactKey: Guid(7bfa60e3d7a7fb942a8b2a0de518636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_02.fbx using Guid(7bfa60e3d7a7fb942a8b2a0de518636e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b2c0d1a46c16b02bd82499e548cc59') in 0.019257 seconds 
-  Import took 0.023103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/rock.fbx
-  artifactKey: Guid(68c4929527d2bd04a9e26d656695f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/rock.fbx using Guid(68c4929527d2bd04a9e26d656695f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346863104f73810193a2208d05f1db4c') in 0.014568 seconds 
-  Import took 0.018066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/winter-branch.fbx
-  artifactKey: Guid(b0be451869d34e24caf635978c8495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/winter-branch.fbx using Guid(b0be451869d34e24caf635978c8495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbe56d007d442a423be3e12e9bf4354') in 0.024906 seconds 
-  Import took 0.028217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_04.fbx
-  artifactKey: Guid(50333971034ddf34b9db3bd600d6be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_04.fbx using Guid(50333971034ddf34b9db3bd600d6be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754e44253eb2820b9d30a694694b47d6') in 0.021346 seconds 
-  Import took 0.025074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/Pinetrees.fbx
-  artifactKey: Guid(0f4df284e59e6864b827cf920bcde2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/Pinetrees.fbx using Guid(0f4df284e59e6864b827cf920bcde2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd769ada5b9a8d3dd78682275766095d0') in 0.098924 seconds 
-  Import took 0.102242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/cactus.fbx
-  artifactKey: Guid(76f5a0a68221c434683585b8845ec5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/cactus.fbx using Guid(76f5a0a68221c434683585b8845ec5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b749e3f887af6cac4e5f861c377d0529') in 0.019493 seconds 
-  Import took 0.023092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_01.fbx
-  artifactKey: Guid(6dee3b2715f2ad045b2216dc29de66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_01.fbx using Guid(6dee3b2715f2ad045b2216dc29de66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d56ec3343bcc25d7c80c2ad844d578') in 0.015917 seconds 
-  Import took 0.019878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/skeleton.fbx
-  artifactKey: Guid(32f8c6997bbefe840a95979c196f5dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/skeleton.fbx using Guid(32f8c6997bbefe840a95979c196f5dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b5046141d9cc2d9d5f8cb0df4d0df') in 0.019102 seconds 
-  Import took 0.022874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/old-tree.fbx
-  artifactKey: Guid(25eec62dbe6fad049845fb58aac9ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/old-tree.fbx using Guid(25eec62dbe6fad049845fb58aac9ee29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ef6fde3aad7f45329fdc12a585467') in 0.039608 seconds 
-  Import took 0.042807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_06.fbx
-  artifactKey: Guid(9d41d779e7ef1334b84018f265dc17ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/LP_S-Rock_06.fbx using Guid(9d41d779e7ef1334b84018f265dc17ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13fabcf56a2828fd4ca474d8aa5065f') in 0.016472 seconds 
-  Import took 0.019863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/pyramid.fbx
-  artifactKey: Guid(1e7f8276caa13c54d9a520cc7234acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Models/pyramid.fbx using Guid(1e7f8276caa13c54d9a520cc7234acea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47007d84bd444daefae0dbb3be29bf41') in 0.022985 seconds 
-  Import took 0.026259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1119.878887 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs
-  artifactKey: Guid(e24650bd4c4fdde40830927122c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs using Guid(e24650bd4c4fdde40830927122c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7f867e964e493fff4b1fe643784049') in 0.002989 seconds 
-  Import took 0.006917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076268 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree1.prefab
-  artifactKey: Guid(5ffc7c37e94a6f048b8525e41ac6d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree1.prefab using Guid(5ffc7c37e94a6f048b8525e41ac6d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef6441c77a605984cb790e3503c1bfe') in 0.032850 seconds 
-  Import took 0.036862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Dead_Break.prefab
-  artifactKey: Guid(a9f70ca3f0b87524699bd1d985191322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Dead_Break.prefab using Guid(a9f70ca3f0b87524699bd1d985191322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2ab013f0ef870f33c38ab4786ff439') in 0.013567 seconds 
-  Import took 0.017317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_02.prefab
-  artifactKey: Guid(f4cfc7d864800a742972be4fded81065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_02.prefab using Guid(f4cfc7d864800a742972be4fded81065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c033be95c7452a8eb6373ad3004ab590') in 0.014253 seconds 
-  Import took 0.018072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1245855526cb02423abf46b0e06a8ecf') in 0.012778 seconds 
-  Import took 0.016221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/OldTree.prefab
-  artifactKey: Guid(6e3c35af30a28104ab1ec170195dc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/OldTree.prefab using Guid(6e3c35af30a28104ab1ec170195dc650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315726645ab4934e99c95aa36ac99f62') in 0.018678 seconds 
-  Import took 0.022341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock1.prefab
-  artifactKey: Guid(7193ffee25d9e0145bd111d59ed99356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock1.prefab using Guid(7193ffee25d9e0145bd111d59ed99356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd86b7a7785872913e4b836b58864967') in 0.013462 seconds 
-  Import took 0.017068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_01_Bevel.prefab
-  artifactKey: Guid(9fcb75428ae3e924e8dc0e7eb27415c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_01_Bevel.prefab using Guid(9fcb75428ae3e924e8dc0e7eb27415c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ebf3ec65ddf08417b797bc682f64d') in 0.011980 seconds 
-  Import took 0.016039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/GodRay.prefab
-  artifactKey: Guid(8aa3174ecec0a6b47ae7e9a7fe06f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/GodRay.prefab using Guid(8aa3174ecec0a6b47ae7e9a7fe06f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9837c937a59472135ff1c59395dc778d') in 0.054100 seconds 
-  Import took 0.058121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_02_Bevel.prefab
-  artifactKey: Guid(6f7fff8f01477a740a2b3c2120bd6bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_02_Bevel.prefab using Guid(6f7fff8f01477a740a2b3c2120bd6bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24f25cb4c42a63303f2e20462d91358') in 0.013069 seconds 
-  Import took 0.016878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/WinterBranch.prefab
-  artifactKey: Guid(74996c3da7ad92f428bb0e1f1f2da3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/WinterBranch.prefab using Guid(74996c3da7ad92f428bb0e1f1f2da3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c2074e72cdce7b4898465694c801ef') in 0.012596 seconds 
-  Import took 0.016450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_01.prefab
-  artifactKey: Guid(46840f8810e5e934e92b3611970381f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_01.prefab using Guid(46840f8810e5e934e92b3611970381f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f20715f0a7c4f989dfeeb0a8247ac0f') in 0.014346 seconds 
-  Import took 0.017554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Snowman.prefab
-  artifactKey: Guid(95cedf161cefbcf48ba21cabd6bb918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Snowman.prefab using Guid(95cedf161cefbcf48ba21cabd6bb918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a7802fdce6010c73a46c4b9b32800e') in 0.012061 seconds 
-  Import took 0.015777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Dead.prefab
-  artifactKey: Guid(0c38cfea44e4e9c469223159012ec53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Dead.prefab using Guid(0c38cfea44e4e9c469223159012ec53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b254cf63850a943d738966a24d961ac') in 0.012489 seconds 
-  Import took 0.015858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock.prefab
-  artifactKey: Guid(2b48895e6ddc0e4409b245952f9896d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock.prefab using Guid(2b48895e6ddc0e4409b245952f9896d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13942e91641ade5106071b7f8f0bcf63') in 0.011966 seconds 
-  Import took 0.015476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_00.prefab
-  artifactKey: Guid(6162978843b812645b55d91aa94ded4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_00.prefab using Guid(6162978843b812645b55d91aa94ded4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a9a221cc9828c507b167b8478543be') in 0.012455 seconds 
-  Import took 0.015709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/SpringTree1.prefab
-  artifactKey: Guid(0a4b449c7ce553e4c941c0ee49064a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/SpringTree1.prefab using Guid(0a4b449c7ce553e4c941c0ee49064a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6e0f9726a831d448d9f2c036d9f384') in 0.018465 seconds 
-  Import took 0.021864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Smoke_Small.prefab
-  artifactKey: Guid(a341a6ed49ac08b4a9b4b7f21bc0dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Smoke_Small.prefab using Guid(a341a6ed49ac08b4a9b4b7f21bc0dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8615587157c0e0b349eb4c98bfc2d911') in 0.056654 seconds 
-  Import took 0.060143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pinetree.prefab
-  artifactKey: Guid(4c32851254257ed4a9191912835abbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pinetree.prefab using Guid(4c32851254257ed4a9191912835abbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312e86998fb95201ce5c81e0f8468b0a') in 0.010850 seconds 
-  Import took 0.014654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree3.prefab
-  artifactKey: Guid(f2f4f08f7dc60d042ac98c593f8e32c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree3.prefab using Guid(f2f4f08f7dc60d042ac98c593f8e32c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0e99313f8cb81d164e3f5376745f48') in 0.012687 seconds 
-  Import took 0.015972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock3.prefab
-  artifactKey: Guid(ebd70366c46843d4eb94412901f7ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock3.prefab using Guid(ebd70366c46843d4eb94412901f7ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c310decadb0822a1c84119553f4d0edc') in 0.012491 seconds 
-  Import took 0.016430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree2.prefab
-  artifactKey: Guid(991dab34aeadc1f499582a575f38896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/AutumnTree2.prefab using Guid(991dab34aeadc1f499582a575f38896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7080fd6d806b7b064b5c5d0962512993') in 0.012870 seconds 
-  Import took 0.016413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Cactus.prefab
-  artifactKey: Guid(e19eaf6ede43e7443b0f88e7872a6159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Cactus.prefab using Guid(e19eaf6ede43e7443b0f88e7872a6159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b70739eb6a35daf12bacf9170bb43c') in 0.012452 seconds 
-  Import took 0.015691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_00_Bevel.prefab
-  artifactKey: Guid(e8411cd468b48db46a29291eeb27a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Pine_00_Bevel.prefab using Guid(e8411cd468b48db46a29291eeb27a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53816aa46e639b651159ef3afd91b5d7') in 0.012825 seconds 
-  Import took 0.016347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Cactus.prefab
-  artifactKey: Guid(e19eaf6ede43e7443b0f88e7872a6159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Cactus.prefab using Guid(e19eaf6ede43e7443b0f88e7872a6159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b70739eb6a35daf12bacf9170bb43c') in 0.007829 seconds 
-  Import took 0.011048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Fire_Small.prefab
-  artifactKey: Guid(3f7414145435c184e8a4cb8369212abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Fire_Small.prefab using Guid(3f7414145435c184e8a4cb8369212abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e003e49344adee2703715eae95e16e') in 0.013081 seconds 
-  Import took 0.017034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Skeleton.prefab
-  artifactKey: Guid(07f7697f653699d4fa9f38273c28deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Skeleton.prefab using Guid(07f7697f653699d4fa9f38273c28deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af69fd3bd3f9077c316af978a63a9d7c') in 0.013100 seconds 
-  Import took 0.017023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock2.prefab
-  artifactKey: Guid(b0d744330c6776943844b07ecd94eb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Rock2.prefab using Guid(b0d744330c6776943844b07ecd94eb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749849729aa0613a68ba5e63653ae96c') in 0.011141 seconds 
-  Import took 0.014926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/PainterCursor.prefab
-  artifactKey: Guid(c37ebee2e1481ae43b54dbef7c863042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/PainterCursor.prefab using Guid(c37ebee2e1481ae43b54dbef7c863042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b826f67b718543d45bf1c1c2fe6d2b10') in 0.110402 seconds 
-  Import took 0.113956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/WinterPintree.prefab
-  artifactKey: Guid(4d30d389aebb4ca4baec23b678f82099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/WinterPintree.prefab using Guid(4d30d389aebb4ca4baec23b678f82099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e38378a0b444439386c556ff2449e4') in 0.017934 seconds 
-  Import took 0.021146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.118277 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials/VolcanoEruptParticle.mat
-  artifactKey: Guid(436e34f312480f9458e3261c88c5b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials/VolcanoEruptParticle.mat using Guid(436e34f312480f9458e3261c88c5b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302ca5cc3c950579720166fb7756e709') in 0.019750 seconds 
-  Import took 0.024004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.452078 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials/GodRay.mat
-  artifactKey: Guid(dd48aef983451fe4ca00bb7032b8e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials/GodRay.mat using Guid(dd48aef983451fe4ca00bb7032b8e9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775071928067fe31eeda9c559314440') in 0.012101 seconds 
-  Import took 0.016507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.890589 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3286fd5a84599577b9d382cf960b13dc') in 0.011363 seconds 
-  Import took 0.015219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.572586 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd76dfa791e1dafdfc5188a233e2944') in 0.010530 seconds 
-  Import took 0.014554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.077585 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761f3a286357826e348b95478aeb54e') in 0.008560 seconds 
-  Import took 0.012676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.208604 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447a6f63b755719081b54b738c4a25d6') in 0.010878 seconds 
-  Import took 0.014719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.193652 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2784a342040ea5d51f0b7091f56655e3') in 0.015633 seconds 
-  Import took 0.019734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.977893 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab
-  artifactKey: Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Prefabs/Grass.prefab using Guid(ff85d5480822770438d58a2038b08150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5399b14866e5f703daa8bc03e3edfa0') in 0.008420 seconds 
-  Import took 0.012358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.300303 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials
-  artifactKey: Guid(991b29ae12e5ea64181dcd07931b3bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Materials using Guid(991b29ae12e5ea64181dcd07931b3bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33741e2c74ed103def30175ddb204b79') in 0.005714 seconds 
-  Import took 0.009640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.336454 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps
-  artifactKey: Guid(7936deac2c3cda64db53c37c9556606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps using Guid(7936deac2c3cda64db53c37c9556606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c61ae11c4c7af5faec9ad0d40fa29d') in 0.005305 seconds 
-  Import took 0.009430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075115 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain00.png
-  artifactKey: Guid(e8b70ed43f793074c976cc4affd3e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain00.png using Guid(e8b70ed43f793074c976cc4affd3e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761631e15c696719e86608a2af348259') in 0.020331 seconds 
-  Import took 0.024125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain01.png
-  artifactKey: Guid(fadff9f716ed21a4eb1020e7cd42736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain01.png using Guid(fadff9f716ed21a4eb1020e7cd42736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0592c880c123fb382a40923d69db1ba') in 0.017705 seconds 
-  Import took 0.021784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.081613 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f63bfcd8700e44dd2df0442d1d5771') in 0.001782 seconds 
-  Import took 0.005715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004154 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(a4bccc602a095ef479b9114b8b20917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f63bfcd8700e44dd2df0442d1d5771') in 0.001746 seconds 
-  Import took 0.005227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.852988 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab
-  artifactKey: Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_teepee02.prefab using Guid(c1ea5178c70ddd547902bdaa4e97d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56642cce2f81cc89328cbb0586a34339') in 0.009402 seconds 
-  Import took 0.013197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_wind_turbine.prefab
-  artifactKey: Guid(8076c64c27533d64eb3b5ca28b94e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_wind_turbine.prefab using Guid(8076c64c27533d64eb3b5ca28b94e190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eea4449d2814d68b70c7a1d2021aa6') in 0.010106 seconds 
-  Import took 0.013265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab
-  artifactKey: Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_windmill.prefab using Guid(e6f9cb2853881bb4399d4dbc6399ffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeff97a1b9ddce3617ccef169d86440d') in 0.009625 seconds 
-  Import took 0.013245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_water_tower.prefab
-  artifactKey: Guid(e3d650ec0707a62408ab5bd72773a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Prefabs/prefab_polytope_water_tower.prefab using Guid(e3d650ec0707a62408ab5bd72773a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd505bc0c07511fc8009d2e8116b467') in 0.009869 seconds 
-  Import took 0.013538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 254.229252 seconds.
-  path: Assets/Models
-  artifactKey: Guid(efc5b1e912572e7478b71e1379a8cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(efc5b1e912572e7478b71e1379a8cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f24efbd3f1c09152e57eac513d8d5') in 0.001616 seconds 
-  Import took 0.005291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Models
-  artifactKey: Guid(efc5b1e912572e7478b71e1379a8cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(efc5b1e912572e7478b71e1379a8cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f24efbd3f1c09152e57eac513d8d5') in 0.001543 seconds 
-  Import took 0.005040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.680429 seconds.
-  path: Assets/Models/Pine_02 Variant.prefab
-  artifactKey: Guid(370997f7aee3adc4b865f60060a1ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_02 Variant.prefab using Guid(370997f7aee3adc4b865f60060a1ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f91210c887a9d958244a93ca7d466') in 0.038066 seconds 
-  Import took 0.042100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003583 seconds.
-  path: Assets/Models/Pine_02 Variant.prefab
-  artifactKey: Guid(370997f7aee3adc4b865f60060a1ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_02 Variant.prefab using Guid(370997f7aee3adc4b865f60060a1ca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f91210c887a9d958244a93ca7d466') in 0.011626 seconds 
-  Import took 0.015298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.097602 seconds.
-  path: Assets/Models/Pine_02.prefab
-  artifactKey: Guid(f0a4c0a3d3870524f9191df8707060ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_02.prefab using Guid(f0a4c0a3d3870524f9191df8707060ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293d32f9b42fc29f252b2bda5aec75c8') in 0.012204 seconds 
-  Import took 0.016438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.493249 seconds.
-  path: Assets/Models/Pine_01_Bevel.prefab
-  artifactKey: Guid(7c92003c0ae2c8c4ba8cc70e74c7e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_01_Bevel.prefab using Guid(7c92003c0ae2c8c4ba8cc70e74c7e2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035284925eeb91207f3f7e1f762c2640') in 0.013397 seconds 
-  Import took 0.017464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.763597 seconds.
-  path: Assets/Models/Cactus.prefab
-  artifactKey: Guid(99120312c005569438ff86464b82f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cactus.prefab using Guid(99120312c005569438ff86464b82f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7472e05c1fae65082fa8b09c30e08') in 0.011356 seconds 
-  Import took 0.015437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.573739 seconds.
-  path: Assets/Models/AutumnTree2.prefab
-  artifactKey: Guid(ed88d6cc91d764c43b7c2bac99e3e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/AutumnTree2.prefab using Guid(ed88d6cc91d764c43b7c2bac99e3e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a43d22d49b452bcc535b8e91b76d276') in 0.011888 seconds 
-  Import took 0.015882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.206750 seconds.
-  path: Assets/Models/Grass.prefab
-  artifactKey: Guid(5e8cb7a1ed3fe7e4d8aabebfae917938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Grass.prefab using Guid(5e8cb7a1ed3fe7e4d8aabebfae917938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37f00d26046f3eb247569a41f6c76ba') in 0.011270 seconds 
-  Import took 0.015224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.436543 seconds.
-  path: Assets/Models/OldTree.prefab
-  artifactKey: Guid(5dde52085ba992b4bb2b9ce999358c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OldTree.prefab using Guid(5dde52085ba992b4bb2b9ce999358c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69394860d16d6cb61961819e40b438ab') in 0.011903 seconds 
-  Import took 0.016036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.275360 seconds.
-  path: Assets/Models/Pine_00.prefab
-  artifactKey: Guid(54de53bcaef1a104b9f00f37d16ae64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_00.prefab using Guid(54de53bcaef1a104b9f00f37d16ae64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9fe3b5cd2a147b432b6afd9c976f15') in 0.014292 seconds 
-  Import took 0.018999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.236379 seconds.
-  path: Assets/Models/Pine_00_Bevel.prefab
-  artifactKey: Guid(5a590bb74b7b90546a5131462d37f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_00_Bevel.prefab using Guid(5a590bb74b7b90546a5131462d37f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c7537d2ce1bc4f35bfc6aa23bd7464') in 0.012821 seconds 
-  Import took 0.016762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.399162 seconds.
-  path: Assets/Models/Pine_01.prefab
-  artifactKey: Guid(19f6dc151bf2829438b5df49398335a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_01.prefab using Guid(19f6dc151bf2829438b5df49398335a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef35426cc15bd604086b3d8ce225008') in 0.012619 seconds 
-  Import took 0.016893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.308016 seconds.
-  path: Assets/Models/Pine_02_Bevel.prefab
-  artifactKey: Guid(18614a3739326c24fb44e146463f7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_02_Bevel.prefab using Guid(18614a3739326c24fb44e146463f7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab91ef5c1e39d477e58ec5b70501599') in 0.013091 seconds 
-  Import took 0.017364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004816 seconds.
-  path: Assets/Models/Pine_02_Bevel.prefab
-  artifactKey: Guid(18614a3739326c24fb44e146463f7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pine_02_Bevel.prefab using Guid(18614a3739326c24fb44e146463f7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab91ef5c1e39d477e58ec5b70501599') in 0.010316 seconds 
-  Import took 0.014315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.272248 seconds.
-  path: Assets/Models/SpringTree1.prefab
-  artifactKey: Guid(8cf2c0fa23623844e92d689fc91ea53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/SpringTree1.prefab using Guid(8cf2c0fa23623844e92d689fc91ea53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393ee82d11d3606ef7390faaf4067ecf') in 0.013021 seconds 
-  Import took 0.017325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.208179 seconds.
-  path: Assets/Models/WinterBranch.prefab
-  artifactKey: Guid(69b24280849f6834e82a1cb63d123a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/WinterBranch.prefab using Guid(69b24280849f6834e82a1cb63d123a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba69d7eacda92d44e12f29a5227878aa') in 0.011166 seconds 
-  Import took 0.015345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.208977 seconds.
-  path: Assets/Models/prefab_polytope_windmill.prefab
-  artifactKey: Guid(d705c2a929b652a4dae3ba08ffed222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_windmill.prefab using Guid(d705c2a929b652a4dae3ba08ffed222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3a210e322675faf560ace1134b0fe5') in 0.012500 seconds 
-  Import took 0.016582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003684 seconds.
-  path: Assets/Models/prefab_polytope_windmill.prefab
-  artifactKey: Guid(d705c2a929b652a4dae3ba08ffed222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_windmill.prefab using Guid(d705c2a929b652a4dae3ba08ffed222d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3a210e322675faf560ace1134b0fe5') in 0.010454 seconds 
-  Import took 0.014247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.239490 seconds.
-  path: Assets/Models/prefab_polytope_windmill 1.prefab
-  artifactKey: Guid(7257273706f79c44193969a9e7fff992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_windmill 1.prefab using Guid(7257273706f79c44193969a9e7fff992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca2ab015cffec23cb38a073b4919105') in 0.013943 seconds 
-  Import took 0.018505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001244 seconds.
-  path: Assets/Models/prefab_polytope_windmill 1.prefab
-  artifactKey: Guid(7257273706f79c44193969a9e7fff992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_windmill 1.prefab using Guid(7257273706f79c44193969a9e7fff992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca2ab015cffec23cb38a073b4919105') in 0.011166 seconds 
-  Import took 0.014955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.772113 seconds.
-  path: Assets/Models/prefab_polytope_water_tower.prefab
-  artifactKey: Guid(215ca84f3a5fa1b44a6f25dcfb39bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_water_tower.prefab using Guid(215ca84f3a5fa1b44a6f25dcfb39bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f93b0bc88e394ad1e9700fb3ef2106f') in 0.014781 seconds 
-  Import took 0.018983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001445 seconds.
-  path: Assets/Models/prefab_polytope_water_tower.prefab
-  artifactKey: Guid(215ca84f3a5fa1b44a6f25dcfb39bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_water_tower.prefab using Guid(215ca84f3a5fa1b44a6f25dcfb39bbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f93b0bc88e394ad1e9700fb3ef2106f') in 0.011159 seconds 
-  Import took 0.014965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.771545 seconds.
-  path: Assets/Models/prefab_polytope_teepee02.prefab
-  artifactKey: Guid(eb9f9169407aedd4083ea3ad95c4bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/prefab_polytope_teepee02.prefab using Guid(eb9f9169407aedd4083ea3ad95c4bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b242ece8b30ef15009ac437733276b11') in 0.013243 seconds 
-  Import took 0.017340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.384739 seconds.
-  path: Assets/Prefabs/GodRay.prefab
-  artifactKey: Guid(a89cbbc124f711f4982cdaade8afad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GodRay.prefab using Guid(a89cbbc124f711f4982cdaade8afad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85da4d290d9de59000aef281ff3a77b8') in 0.012802 seconds 
-  Import took 0.016947 seconds .
-
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (250ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2274 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 3.460000 ms (FindLiveObjects: 0.238600 ms CreateObjectMapping: 0.060000 ms MarkObjects: 2.609500 ms  DeleteObjects: 0.550700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
