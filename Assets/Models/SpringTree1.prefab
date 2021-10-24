@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4040443029831759710}
   - component: {fileID: 4065141419047296302}
   - component: {fileID: 4055744983752297408}
-  - component: {fileID: 4177311503739083120}
   m_Layer: 0
   m_Name: SpringTree1
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4177311503739083120
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4042298577075454448}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1.3
-  m_Height: 9.06
-  m_Direction: 1
-  m_Center: {x: 0.062129974, y: 3.1, z: -0.7003484}

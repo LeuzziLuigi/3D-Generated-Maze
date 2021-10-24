@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1004467279174473351}
   - component: {fileID: 975978266488578283}
   - component: {fileID: 985715279861505263}
-  - component: {fileID: 872475067312681489}
   m_Layer: 0
   m_Name: AutumnTree2
   m_TagString: Untagged
@@ -82,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &872475067312681489
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008020334534328023}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 1.1
-  m_Height: 13.360781
-  m_Direction: 1
-  m_Center: {x: 0.062129974, y: 5.273793, z: -0.7003484}
