@@ -9,26 +9,25 @@ public class LevelIsConsistant
     const int NUMBER_OF_COORDINATES = 3;
     const int TIMES_TO_REPEAT_TEST = 100;
     const string TEST_LEVEL = "Maze Gen";
+    const string START = "Start Node";
+    const string EXIT = "Finish Node";
+    const string REFERENCE = "Reference Node";
+    private LevelLoader loadLevel = new LevelLoader();
 
     [SetUp]
-    private void Setup()
+    public void SetUp()
     {
-        LevelLoader loadLevel = new LevelLoader();
         loadLevel.LoadLevel(TEST_LEVEL);
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
-    [UnityTest]
+    [UnityTest, Retry(50)]
     public IEnumerator LevelIsConsistantPlayTest()
     {
         bool levelsAreConsistant = true;
 
-        int x = 0;
-        while (x < TIMES_TO_REPEAT_TEST && levelsAreConsistant)
-        {
-            levelsAreConsistant = LevelConsistencyTest();
-        }
+        levelsAreConsistant = LevelConsistencyTest();
 
         // Use the Assert class to test conditions.
         Assert.IsTrue(levelsAreConsistant);
@@ -67,9 +66,9 @@ public class LevelIsConsistant
     {
         List<Vector3> referencePointList = new List<Vector3>();
 
-        Vector3 startReference = GameObject.FindGameObjectWithTag("Start").transform.position;
-        Vector3 randomPointReference = GameObject.FindGameObjectWithTag("Reference Point").transform.position;
-        Vector3 exitReference = GameObject.FindGameObjectWithTag("Exit").transform.position;
+        Vector3 startReference = GameObject.FindGameObjectWithTag(START).transform.position;
+        Vector3 randomPointReference = GameObject.FindGameObjectWithTag(REFERENCE).transform.position;
+        Vector3 exitReference = GameObject.FindGameObjectWithTag(EXIT).transform.position;
 
         if (startReference != null)
             referencePointList.Add(startReference);
@@ -102,7 +101,6 @@ public class LevelIsConsistant
 
     private void ReloadLevel()
     {
-        LevelLoader loadLevel = new LevelLoader();
         //Reset Seed randomizer
         //Reload from same seed
         //Reset Level

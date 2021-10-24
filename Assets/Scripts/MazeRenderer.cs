@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TestingScripts;
 
 public class MazeRenderer : MonoBehaviour
 {
@@ -30,6 +31,9 @@ public class MazeRenderer : MonoBehaviour
     [Range(1, 999999)]
     private int seed = 0;
 
+    [SerializeField]
+    GameObject NavMesh;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +48,9 @@ public class MazeRenderer : MonoBehaviour
         bool referencePlaced = false;
         bool finishPlaced = false;
 
-
+        var floor = Instantiate(floorPrefab, transform);
+        floor.position = new Vector3(0, -1, 0);
+        floor.localScale = new Vector3(20, floor.localScale.y, 20);
         for (int i=0; i < width; i++)
         {
             for (int j=0; j<height; j++)
@@ -52,9 +58,9 @@ public class MazeRenderer : MonoBehaviour
                 var cell = maze[i, j];
                 var position = new Vector3(-width / 2 + i, 0, -height / 2 + j);
 
-                var floor = Instantiate(floorPrefab, transform);
-                floor.position = position + new Vector3(0, -1, size / 2);
-                floor.localScale = new Vector3(size, floor.localScale.y, size*2);
+                //var floor = Instantiate(floorPrefab, transform);
+                //floor.position = position + new Vector3(0, -1, size / 2);
+                //floor.localScale = new Vector3(size, floor.localScale.y, size*2);
 
                 //Place the start node exactly ONE time
                 if (startPlaced == false)
