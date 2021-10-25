@@ -28,12 +28,14 @@ public class GenerateEnvironment : MonoBehaviour
     public float minScale = 0.4f;
     public float maxScale = 3f;
 
+    public bool hasClumps = true;
+
 
     private int mainTreeQuantity;
     private int secondaryTreeQuantity;
     private int miscelanneousQuantity;
     
-
+    private List<Vector3> locations = new List<Vector3>();
 
     private void Awake()
     {
@@ -50,12 +52,10 @@ public class GenerateEnvironment : MonoBehaviour
     //if valid, place; otherwise, re-do
     private void InstantiateRandomly()
     {
-        List<Vector3> locations = new List<Vector3>(); // .z is for type (mainTree=0, secondaryTree=1, miscelanneous=2, bigObject=3)
         int i = 0;
         bool valid = true;
         while (valid && i < 100)
         {
-            int sectorNumber = Random.Range(0, 8);
             valid = false;
             Vector3 current = Vector3.zero;
 
@@ -63,7 +63,7 @@ public class GenerateEnvironment : MonoBehaviour
             {
                 current.x = Random.Range(-size -padding, x + padding + size);
                 current.z = Random.Range(-size - padding, z + padding + size);
-                valid = validPosition(locations, current);
+                valid = validPosition(current);
                 i++;
             }
 
@@ -71,20 +71,17 @@ public class GenerateEnvironment : MonoBehaviour
             {
                 if (mainTreeQuantity > 0)
                 {
-                    GameObject newObj = Instantiate(mainTree[Random.Range(0, mainTree.Length)], current + transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0), transform);
-                    newObj.transform.localScale *= Random.Range(minScale, maxScale);
+                    InstantiateRandom(mainTree, current);
                     mainTreeQuantity--;
                 }
                 else if (secondaryTreeQuantity > 0)
                 {
-                    GameObject newObj = Instantiate(secondaryTree[Random.Range(0, secondaryTree.Length)], current + transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0), transform);
-                    newObj.transform.localScale *= Random.Range(minScale, maxScale);
+                    InstantiateRandom(secondaryTree, current);
                     secondaryTreeQuantity--;
                 }
                 else if (miscelanneousQuantity > 0)
                 {
-                    GameObject newObj = Instantiate(miscelanneous[Random.Range(0, miscelanneous.Length)], current + transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0), transform);
-                    newObj.transform.localScale *= Random.Range(minScale, maxScale);
+                    InstantiateRandom(miscelanneous, current);
                     miscelanneousQuantity--;
                 }
             }
@@ -107,7 +104,7 @@ public class GenerateEnvironment : MonoBehaviour
     }
 
     //return true if it is not in the maze and there are no nearby (spacing) objects
-    private bool validPosition(List<Vector3> locations, Vector3 currentLocation)
+    private bool validPosition(Vector3 currentLocation)
     {
         if ((currentLocation.x > -padding && currentLocation.x < x + padding) && (currentLocation.z > -padding && currentLocation.z < z + padding))
             return false;
@@ -120,6 +117,35 @@ public class GenerateEnvironment : MonoBehaviour
         return true;
     }
 
+    private void InstantiateRandom(GameObject[] models, Vector3 location)
+    {        
+        GameObject newObj = Instantiate(models[Random.Range(0, models.Length)], location + transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0), transform);
+        newObj.transform.localScale *= Random.Range(minScale, maxScale);
+
+        if (hasClumps)
+        {
+            int count = Random.Range(1, 6);
+            if (Random.Range(0, 2) == 1) //keep the clumps down
+                return;
+            float degrees = 360 / count;
+            float radiant = degrees * Mathf.PI / 180;
+            Vector3 increment = new Vector3(Random.Range(5f, 8f), 0f, 0f);
+
+            for (int i = 0; i < count-1; i++)
+            {
+                //rotating vector
+                float x = increment.x * Mathf.Cos(radiant + Random.Range(radiant/-3, radiant/3)) - increment.z * Mathf.Sin(radiant + Random.Range(radiant / -3, radiant / 3));
+                float z = increment.x * Mathf.Sin(radiant + Random.Range(radiant / -3, radiant / 3)) + increment.z * Mathf.Cos(radiant + Random.Range(radiant / -3, radiant / 3));
+                increment.x = x;
+                increment.z = z;
+                location += increment;
+
+                newObj = Instantiate(models[Random.Range(0, models.Length)], location + transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0), transform);
+                newObj.transform.localScale *= Random.Range(minScale, maxScale);
+                locations.Add(location);
+            }
+        }
+    }
     
     private void SetQuantities()
     {
@@ -132,7 +158,6 @@ public class GenerateEnvironment : MonoBehaviour
             for (int i = 0; i < 10; i++)
             {
                 int r = Random.Range(0, 3);
-                Debug.Log(r);
                 if (r == 0)
                 {
                     r = Random.Range(1, 3);
