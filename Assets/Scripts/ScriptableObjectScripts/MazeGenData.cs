@@ -88,4 +88,9 @@ public class MazeGenData : ScriptableObject
     {
         rang = new System.Random(seed);
     }
+
+    public int getNextRandInt(int min, int max)
+    {
+        return rang.Next(min, max);
+    }
 }
