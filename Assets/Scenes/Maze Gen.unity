@@ -235,15 +235,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca3b3902b1454fa4f8a55996a3166ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 15
-  height: 15
-  size: 1
+  mazeGenData: {fileID: 11400000, guid: 38d8d12910318e6478b4fd774f8f443e, type: 2}
   wallPrefab: {fileID: 980639814224135325, guid: eca7291144fbbd04dacde2b41b55dfef, type: 3}
   floorPrefab: {fileID: 4594406722412888957, guid: 783cefe400a7dba4398fe5195c57f5dd, type: 3}
   startNodePrefab: {fileID: 1172133660609413, guid: ac359b025a999ad45b589915f4158254, type: 3}
   referenceNodePrefab: {fileID: 3046796681227056889, guid: 8c176c73e000aae47821300969ff5cd2, type: 3}
   finishNodePrefab: {fileID: 8206028689904122047, guid: f204c61aca1636f40942767a85f9d70f, type: 3}
-  seed: 425982
   NavMesh: {fileID: 474388782}
 --- !u!4 &319761549
 Transform:
