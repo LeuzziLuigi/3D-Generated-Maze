@@ -8,6 +8,8 @@ TagManager:
   - Reference Node
   - Finish Node
   - NavMesh
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX

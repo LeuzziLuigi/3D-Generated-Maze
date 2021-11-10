@@ -1,9 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using NUnit.Framework;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.TestTools;
 
 public class LevelIsCompletable
@@ -16,21 +13,34 @@ public class LevelIsCompletable
     GameObject start;
     GameObject exit;
 
+    MazeGenData mazeData;
+    LevelLoader loadLevel;
+
     //Sets up for test.
     [SetUp]
     public void SetUp()
     {
-        LevelLoader loadLevel = new LevelLoader();
-        loadLevel.LoadLevel(TEST_LEVEL);
-
+        loadLevel = new LevelLoader();
+        MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
+        mazeData = mazeDataSearch[0];
+        mazeData.resetSeed();
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
     [UnityTest]
     [TestCase(1, ExpectedResult = null)]
-    public IEnumerator LevelNotCompletedWhenNotAtFinish(int placeholder)
+    [TestCase(333333, ExpectedResult = null)]
+    [TestCase(999999, ExpectedResult = null)]
+    public IEnumerator LevelNotCompletedWhenNotAtFinish(int seed)
     {
+        //Set seed
+        mazeData.Seed = seed;
+
+        // Start loading the scene and wait for completion
+        loadLevel.LoadLevel(TEST_LEVEL);
+        yield return new WaitForSeconds(1f);
+
         bool levelComplete = false;
         bool timeUp = false;
 
@@ -58,8 +68,17 @@ public class LevelIsCompletable
     // `yield return null;` to skip a frame.
     [UnityTest]
     [TestCase(1, ExpectedResult = null)]
-    public IEnumerator LevelIsCompletableTest(int placeholder)
+    [TestCase(333333, ExpectedResult = null)]
+    [TestCase(999999, ExpectedResult = null)]
+    public IEnumerator LevelIsCompletableTest(int seed)
     {
+        //Set seed
+        mazeData.Seed = seed;
+
+        // Start loading the scene and wait for completion
+        loadLevel.LoadLevel(TEST_LEVEL);
+        yield return new WaitForSeconds(1f);
+
         bool levelIsCompleteable = true;
 
         bool levelComplete = false;
