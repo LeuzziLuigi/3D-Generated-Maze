@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maze Gen.unity
     guid: 016b86fbb8baff8468322dd380ea1c8f
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 88c7bdc3aefb33749a8dfefb121d89f8
+  - enabled: 1
+    path: Assets/Scenes/Maze Level.unity
+    guid: a38fed9ad8a4f0a49963e61521b57034
   m_configObjects: {}

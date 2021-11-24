@@ -36,9 +36,10 @@ public class MazeRenderer : MonoBehaviour
         bool referencePlaced = false;
         bool finishPlaced = false;
 
-        var floor = Instantiate(floorPrefab, transform);
-        floor.position = new Vector3(0, -1, 0);
-        floor.localScale = new Vector3(20, floor.localScale.y, 20);
+        //var floor = Instantiate(floorPrefab, transform);
+        //floor.position = new Vector3(0, -1, 0);
+        //floor.localScale = new Vector3(20, floor.localScale.y, 20);
+
         for (int i=0; i < mazeGenData.Width; i++)
         {
             for (int j=0; j<mazeGenData.Height; j++)
