@@ -21,6 +21,8 @@ public class MazeGenData : ScriptableObject
 
     private System.Random rang;
 
+    public float timeScore;
+
     // Start is called before the first frame update
     void Start()
     {

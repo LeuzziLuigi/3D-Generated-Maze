@@ -9,15 +9,27 @@ public class MazeRenderer : MonoBehaviour
     private MazeGenData mazeGenData;
 
     [SerializeField]
+    private bool debugTestingMode;
+
+    [SerializeField]
     private Transform wallPrefab = null;
     [SerializeField]
     private Transform floorPrefab = null;
     [SerializeField]
     private Transform startNodePrefab = null;
     [SerializeField]
+    private Transform startPadPrefab = null;
+    [SerializeField]
     private Transform referenceNodePrefab = null;
     [SerializeField]
     private Transform finishNodePrefab = null;
+    [SerializeField]
+    private Transform finishPadPrefab = null;
+
+    [SerializeField]
+    private GameObject finishPad;
+
+
 
     [SerializeField]
     GameObject NavMesh;
@@ -55,22 +67,43 @@ public class MazeRenderer : MonoBehaviour
                 if (startPlaced == false)
                 {
                     startPlaced = true;
-                    var startNode = Instantiate(startNodePrefab, transform);
-                    startNode.position = position + new Vector3(0, 0, 0);
-                    startNode.localScale = new Vector3(startNode.localScale.x, startNode.localScale.y * 10, startNode.localScale.z);
+                    if (debugTestingMode == true)
+                    {
+                        var startNode = Instantiate(startNodePrefab, transform);
+                        startNode.position = position + new Vector3(0, 0, 0);
+                        startNode.localScale = new Vector3(startNode.localScale.x, startNode.localScale.y * 10, startNode.localScale.z);
+                    }
+                    else
+                    {
+                        var startNode = Instantiate(startPadPrefab, transform);
+                        startNode.position = position + new Vector3(0, 0, 0);
+                        startNode.localScale = new Vector3(startNode.localScale.x, startNode.localScale.y, startNode.localScale.z);
+                    }
                 }
 
                 //Place the finish node exactly ONE time
                 if (finishPlaced == false && i == mazeGenData.Width-1 && j == mazeGenData.Height-1)
                 {
                     finishPlaced = true;
-                    var finishNode = Instantiate(finishNodePrefab, transform);
-                    finishNode.position = position + new Vector3(0, 0, 0);
-                    finishNode.localScale = new Vector3(finishNode.localScale.x, finishNode.localScale.y * 10, finishNode.localScale.z);
+                    if (debugTestingMode == true)
+                    {
+                        var finishNode = Instantiate(finishNodePrefab, transform);
+                        finishNode.position = position + new Vector3(0, 0, 0);
+                        finishNode.localScale = new Vector3(finishNode.localScale.x, finishNode.localScale.y * 10, finishNode.localScale.z);
+                    }
+                    else
+                    {
+                        finishPad.transform.position = position + new Vector3(0, 0, 0);
+
+
+                        //var finishNode = Instantiate(finishPadPrefab, transform);
+                        //finishNode.position = position + new Vector3(0, 0, 0);
+                        //finishNode.localScale = new Vector3(finishNode.localScale.x, finishNode.localScale.y, finishNode.localScale.z);
+                    }
                 }
 
                 //Place the reference node exactly ONE time
-                if (referencePlaced == false && i == rang.Next(0, mazeGenData.Width) && j == rang.Next(0, mazeGenData.Height))
+                if (debugTestingMode == true && referencePlaced == false && i == rang.Next(0, mazeGenData.Width) && j == rang.Next(0, mazeGenData.Height))
                 {
                     var referenceNode = Instantiate(referenceNodePrefab, transform);
                     referenceNode.position = position + new Vector3(0, 0, 0);

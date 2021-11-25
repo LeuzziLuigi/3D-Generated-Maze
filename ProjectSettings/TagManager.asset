@@ -10,6 +10,7 @@ TagManager:
   - NavMesh
   - Key
   - Door
+  - Finish Detector
   layers:
   - Default
   - TransparentFX
