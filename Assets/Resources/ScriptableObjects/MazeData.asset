@@ -15,4 +15,5 @@ MonoBehaviour:
   width: 10
   height: 10
   size: 1
-  seed: 240507
+  seed: 128033
+  timeScore: 0

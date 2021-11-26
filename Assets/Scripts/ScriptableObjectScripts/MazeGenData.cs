@@ -24,7 +24,7 @@ public class MazeGenData : ScriptableObject
     public float timeScore;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         resetSeed();
     }
@@ -89,6 +89,11 @@ public class MazeGenData : ScriptableObject
     public void resetSeed()
     {
         rang = new System.Random(seed);
+    }
+
+    public System.Random getRang()
+    {
+        return rang;
     }
 
     public int getNextRandInt(int min, int max)

@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 public class NumDoorsAndKeysMatch
 {
     const int MAX_TIME = 30;
-    const string TEST_LEVEL = "Maze Gen";
+    const string TEST_LEVEL = "TestScene";
     const string KEY = "Key";
     const string DOOR = "Door";
 
@@ -18,8 +18,8 @@ public class NumDoorsAndKeysMatch
     public void SetUp()
     {
         loadLevel = new LevelLoader();
-        MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
-        mazeData = mazeDataSearch[0];
+        //MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
+        mazeData = Resources.Load<MazeGenData>("ScriptableObjects/MazeData");
         mazeData.resetSeed();
     }
 

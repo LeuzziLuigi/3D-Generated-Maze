@@ -20,7 +20,7 @@ namespace TestingScripts
         }
 
         // Update is called once per frame
-        void Update()
+        void FixedUpdate()
         {
             Debug.Log(MoveTarget);
             if (!targetFound)

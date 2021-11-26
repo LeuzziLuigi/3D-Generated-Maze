@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 public class LevelIsCompletable
 {
     const int MAX_TIME = 30;
-    const string TEST_LEVEL = "Maze Gen";
+    const string TEST_LEVEL = "TestScene";
     const string START = "Start Node";
     const string EXIT = "Finish Node";
 
@@ -21,8 +21,8 @@ public class LevelIsCompletable
     public void SetUp()
     {
         loadLevel = new LevelLoader();
-        MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
-        mazeData = mazeDataSearch[0];
+        //MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
+        mazeData = Resources.Load<MazeGenData>("ScriptableObjects/MazeData");
         mazeData.resetSeed();
     }
 
@@ -40,6 +40,7 @@ public class LevelIsCompletable
         // Start loading the scene and wait for completion
         loadLevel.LoadLevel(TEST_LEVEL);
         yield return new WaitForSeconds(1f);
+        
 
         bool levelComplete = false;
         bool timeUp = false;

@@ -8,26 +8,55 @@ public class LevelIsConsistant
 {
     const int NUMBER_OF_COORDINATES = 3;
     const int TIMES_TO_REPEAT_TEST = 100;
-    const string TEST_LEVEL = "Maze Gen";
+    const string TEST_LEVEL = "TestScene";
     const string START = "Start Node";
     const string EXIT = "Finish Node";
     const string REFERENCE = "Reference Node";
     private LevelLoader loadLevel = new LevelLoader();
 
+    MazeGenData mazeData;
+
     [SetUp]
     public void SetUp()
     {
-        loadLevel.LoadLevel(TEST_LEVEL);
+        LoadLevelNoReset();
+        //MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
+        mazeData = Resources.Load<MazeGenData>("ScriptableObjects/MazeData");
+
+        mazeData.resetSeed();
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
-    [UnityTest, Retry(50)]
-    public IEnumerator LevelIsConsistantPlayTest()
+    [UnityTest]
+    [TestCase(1, ExpectedResult = null)]
+    [TestCase(333333, ExpectedResult = null)]
+    [TestCase(999999, ExpectedResult = null)]
+    public IEnumerator LevelIsConsistantSingleLevel(int seed)
     {
+        mazeData.Seed = seed;
+        LoadLevelNoReset();
+        yield return new WaitForSeconds(1f);
         bool levelsAreConsistant = true;
 
-        levelsAreConsistant = LevelConsistencyTest();
+        List<Vector3> referenceFromMapOne = GetReferencePositions();
+
+        while (referenceFromMapOne.Count < 1)
+        {
+            referenceFromMapOne = GetReferencePositions();
+            yield return new WaitForSeconds(1f);
+        }
+        LoadLevelWithReset();
+
+        List<Vector3> referenceFromMapTwo = GetReferencePositions();
+        while (referenceFromMapTwo.Count < 1)
+        {
+            referenceFromMapTwo = GetReferencePositions();
+            yield return new WaitForSeconds(1f);
+        }
+
+        levelsAreConsistant = LevelConsistencyTest(referenceFromMapOne, referenceFromMapTwo);
+        yield return new WaitForSeconds(1f);
 
         // Use the Assert class to test conditions.
         Assert.IsTrue(levelsAreConsistant);
@@ -36,14 +65,47 @@ public class LevelIsConsistant
         yield return null;
     }
 
-    private bool LevelConsistencyTest()
+    [UnityTest]
+    [TestCase(1, ExpectedResult = null)]
+    [TestCase(333333, ExpectedResult = null)]
+    [TestCase(999999, ExpectedResult = null)]
+    public IEnumerator LevelTwoIsDifferent(int seed)
     {
-        bool allReferencesMatch = true;
+        mazeData.Seed = seed;
+        LoadLevelNoReset();
+        yield return new WaitForSeconds(1f);
+        bool levelsAreConsistant = true;
+
         List<Vector3> referenceFromMapOne = GetReferencePositions();
 
-        ReloadLevel();
+        while (referenceFromMapOne.Count < 1)
+        {
+            referenceFromMapOne = GetReferencePositions();
+            yield return new WaitForSeconds(1f);
+        }
+        LoadLevelNoReset();
+        yield return new WaitForSeconds(2f);
 
         List<Vector3> referenceFromMapTwo = GetReferencePositions();
+        while (referenceFromMapTwo.Count < 1)
+        {
+            referenceFromMapTwo = GetReferencePositions();
+            yield return new WaitForSeconds(1f);
+        }
+
+        levelsAreConsistant = LevelConsistencyTest(referenceFromMapOne, referenceFromMapTwo);
+        yield return new WaitForSeconds(1f);
+
+        // Use the Assert class to test conditions.
+        Assert.IsTrue(!levelsAreConsistant);
+
+        // Use yield to skip a frame.
+        yield return null;
+    }
+
+    private bool LevelConsistencyTest(List<Vector3> referenceFromMapOne, List<Vector3> referenceFromMapTwo)
+    {
+        bool allReferencesMatch = true;
 
         if (referenceFromMapOne.Count != NUMBER_OF_COORDINATES || referenceFromMapTwo.Count != NUMBER_OF_COORDINATES)
         {
@@ -71,11 +133,20 @@ public class LevelIsConsistant
         Vector3 exitReference = GameObject.FindGameObjectWithTag(EXIT).transform.position;
 
         if (startReference != null)
+        {
+            Debug.Log("Start Reference" + startReference);
             referencePointList.Add(startReference);
+        }
         if (randomPointReference != null)
+        {
+            Debug.Log("Random Reference" + randomPointReference);
             referencePointList.Add(randomPointReference);
+        }
         if (exitReference != null)
+        {
+            Debug.Log("Exit Reference" + exitReference);
             referencePointList.Add(exitReference);
+        }
 
         return referencePointList;
     }
@@ -99,11 +170,19 @@ public class LevelIsConsistant
         return referenceMatch;
     }
 
-    private void ReloadLevel()
+    private void LoadLevelWithReset()
     {
         //Reset Seed randomizer
-        //Reload from same seed
+        mazeData.resetSeed();
+
         //Reset Level
         loadLevel.LoadLevel(TEST_LEVEL);
     }
+
+    private void LoadLevelNoReset()
+    {
+        //Reset Level
+        loadLevel.LoadLevel(TEST_LEVEL);
+    }
+
 }

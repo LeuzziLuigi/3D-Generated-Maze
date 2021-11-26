@@ -6,7 +6,7 @@ using TestingScripts;
 public class MazeRenderer : MonoBehaviour
 {
     [SerializeField]
-    private MazeGenData mazeGenData;
+    public MazeGenData mazeGenData;
 
     [SerializeField]
     private bool debugTestingMode;
@@ -37,16 +37,19 @@ public class MazeRenderer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var maze = MazeGen.Generate(mazeGenData.Width, mazeGenData.Height, mazeGenData.Seed);
+        var maze = MazeGen.Generate(mazeGenData.Width, mazeGenData.Height, mazeGenData.getRang());
         Draw(maze);
     }
 
     private void Draw(WallState[,] maze)
     {
-        var rang = new System.Random(mazeGenData.Seed);
+        var rang = mazeGenData.getRang();
         bool startPlaced = false;
         bool referencePlaced = false;
         bool finishPlaced = false;
+
+        int refPointHeight = rang.Next(0, mazeGenData.Height);
+        int refPointWidth = rang.Next(0, mazeGenData.Width);
 
         //var floor = Instantiate(floorPrefab, transform);
         //floor.position = new Vector3(0, -1, 0);
@@ -103,8 +106,9 @@ public class MazeRenderer : MonoBehaviour
                 }
 
                 //Place the reference node exactly ONE time
-                if (debugTestingMode == true && referencePlaced == false && i == rang.Next(0, mazeGenData.Width) && j == rang.Next(0, mazeGenData.Height))
+                if (debugTestingMode == true && referencePlaced == false && i == refPointWidth && j == refPointHeight)
                 {
+                    Debug.Log("Reference Placement Reached!");
                     var referenceNode = Instantiate(referenceNodePrefab, transform);
                     referenceNode.position = position + new Vector3(0, 0, 0);
                     referenceNode.localScale = new Vector3(referenceNode.localScale.x, referenceNode.localScale.y * 10, referenceNode.localScale.z);
