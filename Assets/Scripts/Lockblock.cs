@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LockblockManager : MonoBehaviour
+public class Lockblock : MonoBehaviour
 {
     public MazeGenData mazeGenData;
     void OnTriggerEnter(Collider collision)

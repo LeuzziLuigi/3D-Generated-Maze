@@ -22,7 +22,7 @@ public class MazeGenData : ScriptableObject
     private System.Random rang;
 
     public float timeScore;
-    public int totalGems;
+    public int totalGems = 0;
 
     public bool levelFinished = false;
     public int keyCollected = 0;
