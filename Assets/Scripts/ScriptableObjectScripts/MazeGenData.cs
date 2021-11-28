@@ -22,8 +22,10 @@ public class MazeGenData : ScriptableObject
     private System.Random rang;
 
     public float timeScore;
-    public int pickupScore;
     public int totalGems;
+
+    public bool levelFinished = false;
+    public int keyCollected = 0;
 
     // Start is called before the first frame update
     void Awake()

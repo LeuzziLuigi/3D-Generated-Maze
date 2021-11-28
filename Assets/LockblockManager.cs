@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class LockblockManager : MonoBehaviour
 {
-    [SerializeField]
-    private LevelManager levelManager;
-
-    public GameObject thisObject;
-
+    public MazeGenData mazeGenData;
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.tag == "Player" && levelManager.keyCount > 0) //
+        if (collision.tag == "Player" && mazeGenData.keyCollected > 0)
         {
-            levelManager.keyCount--;
-            Destroy(thisObject);
+            mazeGenData.keyCollected -= 1;
+            Destroy(this.gameObject);
         }
     }
 }

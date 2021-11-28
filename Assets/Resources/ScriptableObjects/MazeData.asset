@@ -15,7 +15,8 @@ MonoBehaviour:
   width: 5
   height: 5
   size: 1
-  seed: 999999
+  seed: 827168
   timeScore: 0
-  pickupScore: 0
-  totalGems: 0
+  totalGems: 4
+  levelFinished: 0
+  keyCollected: 2

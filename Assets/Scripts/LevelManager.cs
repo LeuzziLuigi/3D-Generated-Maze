@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private MazeGenData mazeGenData;
 
-    public int keyCount;
+    public bool keyFound;
     public int gemCount;
 
     public GameObject endMazePanel;
@@ -19,7 +19,7 @@ public class LevelManager : MonoBehaviour
 
     public Text timerText;
     public Text pickupText;
-    public Text keyText;
+    public Image keyIcon;
     private float totalSeconds;
     private float millisecondsCount;
     private float millisecondsDisplay;
@@ -32,9 +32,10 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        keyCount = 0;
+        keyFound = false;
+        keyIcon.gameObject.SetActive(false);
         gemCount = 0;
-        pickupText.text = "Gems: " + gemCount;
+        pickupText.text = gemCount.ToString();
     }
     void Update()
     {
@@ -91,7 +92,7 @@ public class LevelManager : MonoBehaviour
         endLevelTimerText.text = timerText.text;
 
         mazeGenData.timeScore = totalSeconds;
-        mazeGenData.pickupScore = gemCount;
+        //mazeGenData.pickupScore = gemCount;
         mazeGenData.totalGems = mazeGenData.totalGems + gemCount;
 
         SendScore();

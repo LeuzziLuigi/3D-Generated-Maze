@@ -13,9 +13,8 @@ public class PickupManager : MonoBehaviour
     {
         if (collision.tag == "Player" && this.tag == "Key")
         {
-            levelManager.keyCount++;
-            levelManager.keyText.text = levelManager.keyText.text + "X";
-            levelManager.keyText.color = Color.green;
+            levelManager.keyFound = true;
+            levelManager.keyIcon.gameObject.SetActive(true);
             Destroy(thisObject);
         }
         if (collision.tag == "Player" && this.tag == "Gem")
