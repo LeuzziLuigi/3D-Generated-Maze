@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    public PlayFabManager playFabManager;
+
     [SerializeField]
     private MazeGenData mazeGenData;
 
-    public int keyCount;
+    public bool keyFound;
     public int gemCount;
 
     public GameObject endMazePanel;
@@ -17,7 +19,7 @@ public class LevelManager : MonoBehaviour
 
     public Text timerText;
     public Text pickupText;
-    public Text keyText;
+    public Image keyIcon;
     private float totalSeconds;
     private float millisecondsCount;
     private float millisecondsDisplay;
@@ -30,9 +32,10 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        keyCount = 0;
+        keyFound = false;
+        keyIcon.gameObject.SetActive(false);
         gemCount = 0;
-        pickupText.text = "Gems: " + gemCount;
+        pickupText.text = gemCount.ToString();
     }
     void Update()
     {
@@ -89,7 +92,23 @@ public class LevelManager : MonoBehaviour
         endLevelTimerText.text = timerText.text;
 
         mazeGenData.timeScore = totalSeconds;
-        mazeGenData.pickupScore = gemCount;
+        //mazeGenData.pickupScore = gemCount;
         mazeGenData.totalGems = mazeGenData.totalGems + gemCount;
+
+        SendScore();
+    }
+
+    private void SendScore()
+    {
+        string score = timerText.text;
+        score = score.Remove(5, 1);
+        score = score.Remove(2, 1);
+
+        while (score[0] == '0')
+        {
+            score = score.Remove(0, 1);
+        }
+
+        playFabManager.SendLeaderbord(int.Parse(score));
     }
 }

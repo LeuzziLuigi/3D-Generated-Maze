@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 6417026500604089063}
   - component: {fileID: 2373548782661608569}
   - component: {fileID: 6194287738817575078}
-  - component: {fileID: 7024111256961555468}
-  - component: {fileID: -3474119015171320452}
   - component: {fileID: 5840355434767924980}
   m_Layer: 0
   m_Name: Gem
@@ -84,32 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7024111256961555468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7024111256961555469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96ba9fd9b06a4bd43953e04845e3947c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gemObject: {fileID: 7024111256961555469}
---- !u!114 &-3474119015171320452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7024111256961555469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97eb96169c2f0524c98adbfac2163391, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisObject: {fileID: 7024111256961555469}
 --- !u!64 &5840355434767924980
 MeshCollider:
   m_ObjectHideFlags: 0
