@@ -1020,32 +1020,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560899009}
   m_CullTransparentMesh: 1
---- !u!1 &574200350 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7789683106663503183, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+--- !u!114 &574200352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
   m_PrefabInstance: {fileID: 7908267567871151885}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &574200352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574200350}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfcf73ff387b0624da887c268c2cdfee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mazeGenData: {fileID: 11400000, guid: 38d8d12910318e6478b4fd774f8f443e, type: 2}
-  keyCount: 0
-  gemCount: 0
-  endMazePanel: {fileID: 693743661}
-  levelFinished: 0
-  endLevelTimerText: {fileID: 560899011}
-  timerText: {fileID: 2050732305}
-  pickupText: {fileID: 1497393983}
-  keyText: {fileID: 1553914370}
 --- !u!1 &693743661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2514,7 +2499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 177.33777, y: 25.771698}
+  m_AnchoredPosition: {x: 177.33777, y: 25.771729}
   m_SizeDelta: {x: 289.2553, y: 51.5426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050732305
@@ -2837,6 +2822,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+      propertyPath: keyText
+      value: 
+      objectReference: {fileID: 1553914370}
+    - target: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 2050732305}
+    - target: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+      propertyPath: pickupText
+      value: 
+      objectReference: {fileID: 1497393983}
+    - target: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+      propertyPath: endMazePanel
+      value: 
+      objectReference: {fileID: 693743661}
+    - target: {fileID: 574200352, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+      propertyPath: endLevelTimerText
+      value: 
+      objectReference: {fileID: 560899011}
     - target: {fileID: 749858267238962482, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2881,14 +2886,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6364817376736558504, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
-      propertyPath: endMazePanel
-      value: 
-      objectReference: {fileID: 693743661}
     - target: {fileID: 7389134967606194384, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
       propertyPath: m_Name
       value: Finish Pad
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6364817376736558504, guid: cbbfe8824d66141498138860f5fc2773, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbbfe8824d66141498138860f5fc2773, type: 3}

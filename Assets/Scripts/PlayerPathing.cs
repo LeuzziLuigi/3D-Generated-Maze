@@ -9,7 +9,10 @@ namespace TestingScripts
     {
         private Vector3 MoveTarget;
         private NavMeshAgent agent;
-        private bool targetFound = false;
+        [SerializeField] private GameObject targetObject;
+
+        public bool collectableMode;
+
 
         private void Start()
         {
@@ -23,15 +26,25 @@ namespace TestingScripts
         void FixedUpdate()
         {
             Debug.Log(MoveTarget);
-            if (!targetFound)
+            if (targetObject == null && !collectableMode)
             {
-                var targetObject = GameObject.FindGameObjectWithTag("Finish Node");
+                targetObject = GameObject.FindGameObjectWithTag("Key");
+                if (targetObject == null)
+                {
+                    targetObject = GameObject.FindGameObjectWithTag("Finish Node");
+                }
                 if (targetObject != null)
                 {
                     SetTarget(targetObject.transform.position);
-                    targetFound = true;
                 }
-            } else
+            } else if (collectableMode && (targetObject == null || targetObject.tag != "Gem"))
+            {
+                targetObject = GameObject.FindGameObjectWithTag("Gem");
+                if (targetObject != null)
+                {
+                    SetTarget(targetObject.transform.position);
+                }
+            }
             {
                 agent.SetDestination(MoveTarget);
             }

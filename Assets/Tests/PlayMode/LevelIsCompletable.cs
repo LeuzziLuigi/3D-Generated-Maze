@@ -71,6 +71,62 @@ public class LevelIsCompletable
     [TestCase(1, ExpectedResult = null)]
     [TestCase(333333, ExpectedResult = null)]
     [TestCase(999999, ExpectedResult = null)]
+    public IEnumerator LevelIsCompletableNoDoorTest(int seed)
+    {
+        //Set seed
+        mazeData.Seed = seed;
+
+        // Start loading the scene and wait for completion
+        loadLevel.LoadLevel(TEST_LEVEL);
+        yield return new WaitForSeconds(1f);
+
+        GameObject[] doors = GameObject.FindGameObjectsWithTag("Door");
+        foreach (GameObject door in doors)
+        {
+            GameObject.Destroy(door);
+        }
+
+        GameObject[] keys = GameObject.FindGameObjectsWithTag("Key");
+        foreach (GameObject key in keys)
+        {
+            GameObject.Destroy(key);
+        }
+
+        bool levelIsCompleteable = true;
+
+        bool levelComplete = false;
+        bool timeUp = false;
+
+        int timeRan = 0;
+        while (!levelComplete && !timeUp)
+        {
+            timeRan++;
+            if (timeRan >= MAX_TIME) //Check if out of time
+            {
+                timeUp = true;
+            }
+
+            levelComplete = LevelIsCompleted(); //Check if level is completed
+            yield return new WaitForSeconds(1f);
+        }
+
+        if (timeUp)
+        {
+            levelIsCompleteable = false;
+        }
+
+        // Use yield to skip a frame.
+        yield return null;
+
+        // Use the Assert class to test conditions.
+        Assert.IsTrue(levelIsCompleteable);
+
+    }
+
+    [UnityTest]
+    [TestCase(1, ExpectedResult = null)]
+    [TestCase(333333, ExpectedResult = null)]
+    [TestCase(999999, ExpectedResult = null)]
     public IEnumerator LevelIsCompletableTest(int seed)
     {
         //Set seed
@@ -89,7 +145,7 @@ public class LevelIsCompletable
         while (!levelComplete && !timeUp)
         {
             timeRan++;
-            if (timeRan >= MAX_TIME) //Check if out of time
+            if (timeRan >= MAX_TIME + 10) //Check if out of time
             {
                 timeUp = true;
             }

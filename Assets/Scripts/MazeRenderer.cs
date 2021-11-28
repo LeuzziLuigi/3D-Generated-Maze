@@ -120,6 +120,7 @@ public class MazeRenderer : MonoBehaviour
                         var finishNode = Instantiate(finishNodePrefab, transform);
                         finishNode.position = position + new Vector3(0, 0, 0);
                         finishNode.localScale = new Vector3(finishNode.localScale.x, finishNode.localScale.y * 10, finishNode.localScale.z);
+                        lockBlock.transform.position = position + new Vector3(0, 0, 0);
                     }
                     else
                     {

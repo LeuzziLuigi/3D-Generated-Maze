@@ -107,7 +107,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7389134967606194384}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.796825, y: 0.7300004, z: -4.2230983}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_Children:
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 1505567790885606995}
   - component: {fileID: 29599638969829604}
   - component: {fileID: 5503202413390195110}
-  - component: {fileID: 6364817376736558504}
+  - component: {fileID: 574200352}
   m_Layer: 0
   m_Name: Finish Detector
   m_TagString: Finish Detector
@@ -276,7 +276,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &6364817376736558504
+--- !u!114 &574200352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -285,10 +285,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 7789683106663503183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01732d0d3183f1a4282f00ce68f651ca, type: 3}
+  m_Script: {fileID: 11500000, guid: dfcf73ff387b0624da887c268c2cdfee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endMazePanel: {fileID: 7904073339948673853, guid: 4116485eb57215541ad00776d1770fe5, type: 3}
+  mazeGenData: {fileID: 11400000, guid: 38d8d12910318e6478b4fd774f8f443e, type: 2}
+  keyCount: 0
+  gemCount: 0
+  endMazePanel: {fileID: 0}
+  levelFinished: 0
+  endLevelTimerText: {fileID: 0}
+  timerText: {fileID: 0}
+  pickupText: {fileID: 0}
+  keyText: {fileID: 0}
 --- !u!1 &9128768637040714399
 GameObject:
   m_ObjectHideFlags: 0
