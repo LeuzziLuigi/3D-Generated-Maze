@@ -11,6 +11,7 @@ TagManager:
   - Key
   - Door
   - Finish Detector
+  - Gem
   layers:
   - Default
   - TransparentFX

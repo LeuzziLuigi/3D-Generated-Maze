@@ -1,16 +1,16 @@
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "MazeData", menuName ="ScriptableObjects/MazeGenData")]
+[CreateAssetMenu(fileName = "MazeData", menuName = "ScriptableObjects/MazeGenData")]
 public class MazeGenData : ScriptableObject
 {
-    [SerializeField]
+    //[SerializeField]
     [Range(1, 100)]
-    private int width = 10;
+    private int width = 15;
 
-    [SerializeField]
+    //[SerializeField]
     [Range(1, 100)]
-    private int height = 10;
+    private int height = 15;
 
     [SerializeField]
     private float size = 1f;
@@ -22,6 +22,8 @@ public class MazeGenData : ScriptableObject
     private System.Random rang;
 
     public float timeScore;
+    public int pickupScore;
+    public int totalGems;
 
     // Start is called before the first frame update
     void Awake()
@@ -93,7 +95,15 @@ public class MazeGenData : ScriptableObject
 
     public System.Random getRang()
     {
-        return rang;
+        if(rang != null)
+        {
+            return rang;
+        }
+        else
+        {
+            resetSeed();
+            return rang;
+        }
     }
 
     public int getNextRandInt(int min, int max)

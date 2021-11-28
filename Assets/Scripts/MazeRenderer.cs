@@ -27,8 +27,23 @@ public class MazeRenderer : MonoBehaviour
     private Transform finishPadPrefab = null;
 
     [SerializeField]
+    private GameObject playerCharacter;
+    [SerializeField]
     private GameObject finishPad;
-
+    [SerializeField]
+    private GameObject lockBlock;
+    [SerializeField]
+    private GameObject keyPickup;
+    [SerializeField]
+    private GameObject gem1;
+    [SerializeField]
+    private GameObject gem2;
+    [SerializeField]
+    private GameObject gem3;
+    [SerializeField]
+    private GameObject gem4;
+    [SerializeField]
+    private GameObject gem5;
 
 
     [SerializeField]
@@ -51,13 +66,24 @@ public class MazeRenderer : MonoBehaviour
         int refPointHeight = rang.Next(0, mazeGenData.Height);
         int refPointWidth = rang.Next(0, mazeGenData.Width);
 
+        int gem1W = rang.Next(0, mazeGenData.Width);
+        int gem2W = rang.Next(0, mazeGenData.Width);
+        int gem3W = rang.Next(0, mazeGenData.Width);
+        int gem4W = rang.Next(0, mazeGenData.Width);
+        int gem5W = rang.Next(0, mazeGenData.Width);
+        int gem1H = rang.Next(0, mazeGenData.Height);
+        int gem2H = rang.Next(0, mazeGenData.Height);
+        int gem3H = rang.Next(0, mazeGenData.Height);
+        int gem4H = rang.Next(0, mazeGenData.Height);
+        int gem5H = rang.Next(0, mazeGenData.Height);
+
         //var floor = Instantiate(floorPrefab, transform);
         //floor.position = new Vector3(0, -1, 0);
         //floor.localScale = new Vector3(20, floor.localScale.y, 20);
 
-        for (int i=0; i < mazeGenData.Width; i++)
+        for (int i = 0; i < mazeGenData.Width; i++)
         {
-            for (int j=0; j<mazeGenData.Height; j++)
+            for (int j = 0; j < mazeGenData.Height; j++)
             {
                 var cell = maze[i, j];
                 var position = new Vector3(-mazeGenData.Width / 2 + i, 0, -mazeGenData.Height / 2 + j);
@@ -81,11 +107,12 @@ public class MazeRenderer : MonoBehaviour
                         var startNode = Instantiate(startPadPrefab, transform);
                         startNode.position = position + new Vector3(0, 0, 0);
                         startNode.localScale = new Vector3(startNode.localScale.x, startNode.localScale.y, startNode.localScale.z);
+                        playerCharacter.transform.position = position + new Vector3(0, 0, 0);
                     }
                 }
 
                 //Place the finish node exactly ONE time
-                if (finishPlaced == false && i == mazeGenData.Width-1 && j == mazeGenData.Height-1)
+                if (finishPlaced == false && i == mazeGenData.Width - 1 && j == mazeGenData.Height - 1)
                 {
                     finishPlaced = true;
                     if (debugTestingMode == true)
@@ -97,6 +124,7 @@ public class MazeRenderer : MonoBehaviour
                     else
                     {
                         finishPad.transform.position = position + new Vector3(0, 0, 0);
+                        lockBlock.transform.position = position + new Vector3(0, 0, 0);
 
 
                         //var finishNode = Instantiate(finishPadPrefab, transform);
@@ -114,15 +142,28 @@ public class MazeRenderer : MonoBehaviour
                     referenceNode.localScale = new Vector3(referenceNode.localScale.x, referenceNode.localScale.y * 10, referenceNode.localScale.z);
                     referencePlaced = true;
                 }
+                else if (debugTestingMode == false && referencePlaced == false && i == refPointWidth && j == refPointHeight)
+                {
+                    Debug.Log("Reference Placement Reached!");
+                    keyPickup.transform.position = position + new Vector3(0, 0, 0);
+                    referencePlaced = true;
+                }
+                {//Gem Placement
+                    if (i == gem1W && j == gem1H) { gem1.transform.position = position + new Vector3(0, 0, 0); }
+                    if (i == gem2W && j == gem2H) { gem2.transform.position = position + new Vector3(0, 0, 0); }
+                    if (i == gem3W && j == gem3H) { gem3.transform.position = position + new Vector3(0, 0, 0); }
+                    if (i == gem4W && j == gem4H) { gem4.transform.position = position + new Vector3(0, 0, 0); }
+                    if (i == gem5W && j == gem5H) { gem5.transform.position = position + new Vector3(0, 0, 0); }
+                }
 
                 if (cell.HasFlag(WallState.UP))
                 {
                     var topWall = Instantiate(wallPrefab, transform) as Transform;
-                    topWall.position = position + new Vector3(0, 0, mazeGenData.Size/2);
+                    topWall.position = position + new Vector3(0, 0, mazeGenData.Size / 2);
                     topWall.localScale = new Vector3(mazeGenData.Size, topWall.localScale.y, topWall.localScale.z);
                 }
 
-                if(cell.HasFlag(WallState.LEFT))
+                if (cell.HasFlag(WallState.LEFT))
                 {
                     var leftWall = Instantiate(wallPrefab, transform) as Transform;
                     leftWall.position = position + new Vector3(-mazeGenData.Size / 2, 0, 0);
@@ -130,9 +171,9 @@ public class MazeRenderer : MonoBehaviour
                     leftWall.eulerAngles = new Vector3(0, 90, 0);
                 }
 
-                if(i == mazeGenData.Width-1)
+                if (i == mazeGenData.Width - 1)
                 {
-                    if(cell.HasFlag(WallState.RIGHT))
+                    if (cell.HasFlag(WallState.RIGHT))
                     {
                         var rightWall = Instantiate(wallPrefab, transform) as Transform;
                         rightWall.position = position + new Vector3(+mazeGenData.Size / 2, 0, 0);
@@ -141,9 +182,9 @@ public class MazeRenderer : MonoBehaviour
                     }
                 }
 
-                if(j==0)
+                if (j == 0)
                 {
-                    if(cell.HasFlag(WallState.DOWN))
+                    if (cell.HasFlag(WallState.DOWN))
                     {
                         var bottomWall = Instantiate(wallPrefab, transform) as Transform;
                         bottomWall.position = position + new Vector3(0, 0, -mazeGenData.Size / 2);
@@ -152,11 +193,5 @@ public class MazeRenderer : MonoBehaviour
                 }
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
