@@ -4,11 +4,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MazeData", menuName = "ScriptableObjects/MazeGenData")]
 public class MazeGenData : ScriptableObject
 {
-    //[SerializeField]
+    [SerializeField]
     [Range(1, 100)]
     private int width = 15;
 
-    //[SerializeField]
+    [SerializeField]
     [Range(1, 100)]
     private int height = 15;
 

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    public PlayFabManager playFabManager;
+
     [SerializeField]
     private MazeGenData mazeGenData;
 
@@ -91,5 +93,21 @@ public class LevelManager : MonoBehaviour
         mazeGenData.timeScore = totalSeconds;
         mazeGenData.pickupScore = gemCount;
         mazeGenData.totalGems = mazeGenData.totalGems + gemCount;
+
+        SendScore();
+    }
+
+    private void SendScore()
+    {
+        string score = timerText.text;
+        score = score.Remove(5, 1);
+        score = score.Remove(2, 1);
+
+        while (score[0] == '0')
+        {
+            score = score.Remove(0, 1);
+        }
+
+        playFabManager.SendLeaderbord(int.Parse(score));
     }
 }

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea48a195dca5870438cb808f32c6879a, type: 3}
   m_Name: MazeData
   m_EditorClassIdentifier: 
+  width: 5
+  height: 5
   size: 1
   seed: 999999
   timeScore: 0
