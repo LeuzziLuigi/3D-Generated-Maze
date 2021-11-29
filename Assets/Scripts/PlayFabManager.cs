@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
+using UnityEngine.UI;
 
 public class PlayFabManager : MonoBehaviour
 {
+
+    public GameObject rowPrefab;
+    public Transform rowsParent;
 
     void Start()
     {
@@ -53,4 +57,29 @@ public class PlayFabManager : MonoBehaviour
     {
         Debug.Log("Sucesfull leaderboard sent");
     }
+
+    public void GetLeaderboard()
+    {
+        var request = new GetLeaderboardRequest
+        {
+            StatisticName = "ScoreStandard",
+            StartPosition = 0,
+            MaxResultsCount = 10
+        };
+        PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
+
+    void OnLeaderboardGet(GetLeaderboardResult result)
+    {
+        foreach (var item in result.Leaderboard)
+        {
+            GameObject newGO = Instantiate(rowPrefab, rowsParent);
+            Text[] texts = newGO.GetComponentsInChildren<Text>();
+            texts[0].text = item.Position.ToString();
+            texts[1].text = item.PlayFabId;
+            texts[2].text = item.StatValue.ToString();
+            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+        }
+    }
+
 }
