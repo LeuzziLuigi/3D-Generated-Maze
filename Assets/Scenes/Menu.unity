@@ -206,8 +206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 157679436}
-        m_TargetAssemblyTypeName: UIManager, Core
+      - m_Target: {fileID: 157679439}
+        m_TargetAssemblyTypeName: MainMenuManager, Core
         m_MethodName: PlayStandardMode
         m_Mode: 1
         m_Arguments:
@@ -218,8 +218,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 1
-      - m_Target: {fileID: 157679436}
-        m_TargetAssemblyTypeName: UIManager, Core
+      - m_Target: {fileID: 157679439}
+        m_TargetAssemblyTypeName: MainMenuManager, Core
         m_MethodName: NewSeedFromUI
         m_Mode: 1
         m_Arguments:
@@ -356,8 +356,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157679437}
-  - component: {fileID: 157679436}
   - component: {fileID: 157679438}
+  - component: {fileID: 157679439}
   m_Layer: 0
   m_Name: Menu Manager
   m_TagString: Untagged
@@ -365,27 +365,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &157679436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157679435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01732d0d3183f1a4282f00ce68f651ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playFabManager: {fileID: 0}
-  mazeGenData: {fileID: 0}
-  endMazePanel: {fileID: 0}
-  gamePanel: {fileID: 0}
-  levelFinished: 0
-  endLevelTimerText: {fileID: 0}
-  timerText: {fileID: 0}
-  gemText: {fileID: 0}
-  keyIcon: {fileID: 0}
 --- !u!4 &157679437
 Transform:
   m_ObjectHideFlags: 0
@@ -398,7 +377,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &157679438
 AudioSource:
@@ -496,6 +475,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &157679439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157679435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5550f4d8780654bbf1fc49ab9f2397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeGenData: {fileID: 11400000, guid: 38d8d12910318e6478b4fd774f8f443e, type: 2}
 --- !u!1 &246428085
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 331026928}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 157679439}
+        m_TargetAssemblyTypeName: MainMenuManager, Core
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &331026928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1102,7 +1106,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &495206535
 GameObject:
@@ -1332,7 +1336,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 157679436}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: PlayStandardMode
         m_Mode: 1
@@ -1512,7 +1516,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7675657774132120460, guid: 5e6c5b786f6ad0a43aeaa8142cd681a9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7675657774132120460, guid: 5e6c5b786f6ad0a43aeaa8142cd681a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2365,7 +2369,7 @@ RectTransform:
   m_Children:
   - {fileID: 1901618265}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3101,7 +3105,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1294778544
 GameObject:
@@ -3737,7 +3741,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492568029
 GameObject:
