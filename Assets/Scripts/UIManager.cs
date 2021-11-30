@@ -99,6 +99,7 @@ public class UIManager : MonoBehaviour
         mazeGenData.levelFinished = true;
         endMazePanel.SetActive(true);
         playFabManager.GetLeaderboard();
+        playFabManager.AddGems(int.Parse(gemText.text));
         gamePanel.SetActive(false);
         endLevelTimerText.text = timerText.text;
 

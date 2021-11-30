@@ -10,6 +10,7 @@ public class PlayFabManager : MonoBehaviour
 
     public GameObject rowPrefab;
     public Transform rowsParent;
+    private int gems { get; set; } 
 
     void Start()
     {
@@ -29,6 +30,7 @@ public class PlayFabManager : MonoBehaviour
     void OnSuccess(LoginResult result)
     {
         Debug.Log("Succesfull login/account create!");
+        LoadGems();
     }
 
     void OnError(PlayFabError error)
@@ -53,9 +55,17 @@ public class PlayFabManager : MonoBehaviour
         PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
     }
 
-    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult request)
+    public void AddGems(int gemsNumber)
     {
-        Debug.Log("Sucesfull leaderboard sent");
+        gems += gemsNumber;
+        var request = new UpdateUserDataRequest
+        {
+            Data = new Dictionary<string, string>
+            {
+                {"Gems",  gems.ToString()}
+            }
+        };
+        PlayFabClientAPI.UpdateUserData(request, OnDataSend, OnError);
     }
 
     public void GetLeaderboard()
@@ -64,9 +74,27 @@ public class PlayFabManager : MonoBehaviour
         {
             StatisticName = "ScoreStandard",
             StartPosition = 0,
-            MaxResultsCount = 10
+            MaxResultsCount = 8
         };
         PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
+
+    public void LoadGems()
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest(), OnDataRecieved, OnError);
+    }
+
+    public void OnDataRecieved(GetUserDataResult result)
+    {
+        if(result.Data != null && result.Data.ContainsKey("Gems"))
+        {
+            gems = int.Parse(result.Data["Gems"].Value);
+            Debug.Log("Gems: " + gems);
+        }
+        else
+        {
+            Debug.Log("Could not load gems");
+        }
     }
 
     void OnLeaderboardGet(GetLeaderboardResult result)
@@ -75,11 +103,23 @@ public class PlayFabManager : MonoBehaviour
         {
             GameObject newGO = Instantiate(rowPrefab, rowsParent);
             Text[] texts = newGO.GetComponentsInChildren<Text>();
-            texts[0].text = item.Position.ToString();
+            texts[0].text = (item.Position+1).ToString();
             texts[1].text = item.PlayFabId;
             texts[2].text = item.StatValue.ToString();
-            Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
+            //Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
         }
     }
+
+    void OnDataSend(UpdateUserDataResult request)
+    {
+        Debug.Log("Data Sent Correctly!");
+    }
+
+    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult request)
+    {
+        Debug.Log("Sucesfull leaderboard sent");
+    }
+
+    
 
 }
