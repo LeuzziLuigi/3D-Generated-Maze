@@ -19,6 +19,7 @@ public class GemsFunction
         //MazeGenData[] mazeDataSearch = Resources.FindObjectsOfTypeAll<MazeGenData>();
         mazeData = Resources.Load<MazeGenData>("ScriptableObjects/MazeData");
         mazeData.resetSeed();
+        mazeData.totalGems = 0;
     }
 
     [UnityTest]
@@ -30,7 +31,7 @@ public class GemsFunction
 
         // Start loading the scene and wait for completion
         loadLevel.LoadLevel(TEST_LEVEL);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
 
         //Set Player Pathing to collectable mode
         var player = GameObject.FindGameObjectWithTag("Player");
@@ -63,7 +64,7 @@ public class GemsFunction
     {
         bool collectablePickedUp = false;
 
-        var collectableCount = GameObject.FindGameObjectWithTag("Finish Detector").GetComponent<LevelManager>().gemCount;
+        var collectableCount = mazeData.totalGems;
 
         if (collectableCount > 0)
         {

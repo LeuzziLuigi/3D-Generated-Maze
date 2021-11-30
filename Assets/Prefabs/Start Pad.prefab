@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 428372494208866731}
   - component: {fileID: 6917649788176700526}
   - component: {fileID: 5348889932047079584}
+  - component: {fileID: -6418195068283529425}
   m_Layer: 0
   m_Name: Start Pad
   m_TagString: Start Node
@@ -263,6 +264,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-6418195068283529425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992718344446809435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
 --- !u!1 &6150207847369991378
 GameObject:
   m_ObjectHideFlags: 0

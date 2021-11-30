@@ -8,7 +8,7 @@ namespace TestingScripts
     public class PlayerPathing : MonoBehaviour
     {
         private Vector3 MoveTarget;
-        private NavMeshAgent agent;
+        [SerializeField] private NavMeshAgent agent;
         [SerializeField] private GameObject targetObject;
 
         public bool collectableMode;
@@ -19,7 +19,7 @@ namespace TestingScripts
             GameObject surface = GameObject.Find("NavMesh");
             Debug.Log(surface.name + " was found.");
             surface.GetComponent<NavMeshCommands>().RebuildMesh();
-            agent = this.gameObject.AddComponent<NavMeshAgent>();
+            //agent = this.gameObject.AddComponent<NavMeshAgent>();
         }
 
         // Update is called once per frame
@@ -44,7 +44,8 @@ namespace TestingScripts
                 {
                     SetTarget(targetObject.transform.position);
                 }
-            }
+            } 
+            if (MoveTarget != null)
             {
                 agent.SetDestination(MoveTarget);
             }
@@ -54,6 +55,7 @@ namespace TestingScripts
         {
             MoveTarget = target;
             Debug.Log(target);
+            agent.SetDestination(MoveTarget);
         }
     }
 }

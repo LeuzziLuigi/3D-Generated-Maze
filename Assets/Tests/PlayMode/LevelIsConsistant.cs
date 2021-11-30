@@ -35,6 +35,7 @@ public class LevelIsConsistant
     public IEnumerator LevelIsConsistantSingleLevel(int seed)
     {
         mazeData.Seed = seed;
+        mazeData.resetSeed();
         LoadLevelNoReset();
         yield return new WaitForSeconds(1f);
         bool levelsAreConsistant = true;

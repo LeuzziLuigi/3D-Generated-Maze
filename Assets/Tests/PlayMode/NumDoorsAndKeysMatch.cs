@@ -36,13 +36,18 @@ public class NumDoorsAndKeysMatch
 
         // Start loading the scene and wait for completion
         loadLevel.LoadLevel(TEST_LEVEL);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
 
         GameObject[] Keys = getObjectList(KEY);
         Debug.Log("# of Keys: " + Keys.Length);
 
         GameObject[] Doors = getObjectList(DOOR);
         Debug.Log("# of Doors: " + Doors.Length);
+
+        foreach(GameObject door in Doors)
+        {
+            Debug.Log(door.name);
+        }
 
         //Get result bool/
         bool numOfKeysAndDoorsMatch = (Keys.Length == Doors.Length);

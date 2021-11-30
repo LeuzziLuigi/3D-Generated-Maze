@@ -52,7 +52,7 @@ public class MazeRenderer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mazeGenData.getNewSeed();
+        //mazeGenData.getNewSeed();
         var maze = MazeGen.Generate(mazeGenData.Width, mazeGenData.Height, mazeGenData.getRang());
         Draw(maze);
         mazeGenData.keyCollected = 0;
@@ -149,6 +149,7 @@ public class MazeRenderer : MonoBehaviour
                     Debug.Log("Reference Placement Reached!");
                     var referenceNode = Instantiate(referenceNodePrefab, transform);
                     referenceNode.position = position + new Vector3(0, 0, 0);
+                    keyPickup.transform.position = position + new Vector3(0, 0, 0);
                     referenceNode.localScale = new Vector3(referenceNode.localScale.x, referenceNode.localScale.y * 10, referenceNode.localScale.z);
                     referencePlaced = true;
                 }

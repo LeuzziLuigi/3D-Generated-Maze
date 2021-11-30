@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1172133660609413}
   - component: {fileID: 3441730580177530233}
   - component: {fileID: 7305326491081240823}
-  - component: {fileID: 3535120385778473343}
   - component: {fileID: 954777880784811018}
+  - component: {fileID: -6102521085583667547}
   m_Layer: 0
   m_Name: StartNode
   m_TagString: Start Node
@@ -83,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3535120385778473343
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2676548175044988756}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &954777880784811018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,3 +96,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerToSpawn: {fileID: 8826836402805867883, guid: 6ec31fa86800ed946966b9ba481df459, type: 3}
+--- !u!114 &-6102521085583667547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676548175044988756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 1
+  m_AffectedAgents: ffffffff
