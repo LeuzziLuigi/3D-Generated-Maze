@@ -135,6 +135,7 @@ public class PlayFabManager : MonoBehaviour
 
     void OnLeaderboardGet(GetLeaderboardResult result)
     {
+        result.Leaderboard.Reverse();
         foreach (var item in result.Leaderboard)
         {
             GameObject newGO = Instantiate(rowPrefab, rowsParent);
@@ -144,9 +145,37 @@ public class PlayFabManager : MonoBehaviour
                 texts[1].text = item.PlayFabId;
             else
                 texts[1].text = item.DisplayName;
-            texts[2].text = item.StatValue.ToString();
+            texts[2].text = StatValueToTime(item.StatValue);
             //Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
         }
+    }
+
+    private string StatValueToTime(int statValue)
+    {
+        string n = statValue.ToString();
+        string result = "00:00:00";
+        switch (n.Length)
+        {
+            case 1:
+                result = "00:00:0" + n[0];
+                break;
+            case 2:
+                result = "00:00:" + n[0] + n[1];
+                break;
+            case 3:
+                result = "00:0" + n[0] + ":" + n[1] + n[2];
+                break;
+            case 4:
+                result = "00:" + n[0] + n[1] + ":" + n[2] + n[3];
+                break;
+            case 5:
+                result = "0" + n[0] + ":" + n[1] + n[2] + ":" + n[3] + n[4];
+                break;
+            case 6:
+                result = n[0] + n[1] + ":" + n[2] + n[3] + ":" + n[4] + n[5];
+                break;
+        }
+        return result;
     }
 
     void OnDataSend(UpdateUserDataResult request)
