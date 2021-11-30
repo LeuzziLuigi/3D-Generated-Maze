@@ -30,6 +30,7 @@ public class UIManager : MonoBehaviour
     private string minutesText;
     void Start()
     {
+        mazeGenData.totalGems = 0;
         keyIcon.gameObject.SetActive(false);
     }
     // Update is called once per frame
@@ -103,7 +104,6 @@ public class UIManager : MonoBehaviour
         endLevelTimerText.text = timerText.text;
 
         mazeGenData.timeScore = totalSeconds;
-        mazeGenData.totalGems = 0;
     }
 
     private void SendScore()
