@@ -10,6 +10,7 @@ public class PlayFabManager : MonoBehaviour
     
     public GameObject nameWindow;
     public GameObject leaderboardWindow;
+    public GameObject loadingLeaderBoard;
     public InputField nameInput;
     
     public GameObject rowPrefab;
@@ -95,7 +96,12 @@ public class PlayFabManager : MonoBehaviour
 
     public void GetLeaderboard()
     {
-        if(displayName == null)
+        foreach (Transform child in rowsParent)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+
+        if (displayName == null)
         {
             nameWindow.SetActive(true);
             leaderboardWindow.SetActive(false);
@@ -136,18 +142,21 @@ public class PlayFabManager : MonoBehaviour
     void OnLeaderboardGet(GetLeaderboardResult result)
     {
         result.Leaderboard.Reverse();
+        int position = 1;
         foreach (var item in result.Leaderboard)
         {
             GameObject newGO = Instantiate(rowPrefab, rowsParent);
             Text[] texts = newGO.GetComponentsInChildren<Text>();
-            texts[0].text = (item.Position+1).ToString();
+            texts[0].text = (position).ToString();
             if(item.DisplayName == null)
                 texts[1].text = item.PlayFabId;
             else
                 texts[1].text = item.DisplayName;
             texts[2].text = StatValueToTime(item.StatValue);
+            position++;
             //Debug.Log(item.Position + " " + item.PlayFabId + " " + item.StatValue);
         }
+        Debug.Log("Leaderboard loaded");
     }
 
     private string StatValueToTime(int statValue)
@@ -186,11 +195,20 @@ public class PlayFabManager : MonoBehaviour
     void OnLeaderboardUpdate(UpdatePlayerStatisticsResult request)
     {
         Debug.Log("Sucesfull leaderboard sent");
+        StartCoroutine(GetLeaderBoardDelay());
     }
 
     void OnDisplayNameUpdate(UpdateUserTitleDisplayNameResult result)
     {
         Debug.Log("Name updated");
+        StartCoroutine(GetLeaderBoardDelay());
+    }
+
+    IEnumerator GetLeaderBoardDelay()
+    {
+        loadingLeaderBoard.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        loadingLeaderBoard.SetActive(false);
         GetLeaderboard();
     }
 

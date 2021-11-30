@@ -98,13 +98,12 @@ public class UIManager : MonoBehaviour
     {
         mazeGenData.levelFinished = true;
         gamePanel.SetActive(false);
-        playFabManager.GetLeaderboard();
+        SendScore();
         playFabManager.AddGems(int.Parse(gemText.text));
         endLevelTimerText.text = timerText.text;
 
         mazeGenData.timeScore = totalSeconds;
-
-        SendScore();
+        mazeGenData.totalGems = 0;
     }
 
     private void SendScore()
