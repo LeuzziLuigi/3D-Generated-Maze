@@ -68,6 +68,13 @@ public class MazeRenderer : MonoBehaviour
         int refPointHeight = rang.Next(0, mazeGenData.Height);
         int refPointWidth = rang.Next(0, mazeGenData.Width);
 
+        while ((refPointHeight == mazeGenData.Height && refPointWidth == mazeGenData.Width) 
+            || (refPointHeight == 0 && refPointWidth == 0))
+        {
+            refPointHeight = rang.Next(0, mazeGenData.Height);
+            refPointWidth = rang.Next(0, mazeGenData.Width);
+        }
+
         int gem1W = rang.Next(0, mazeGenData.Width);
         int gem2W = rang.Next(0, mazeGenData.Width);
         int gem3W = rang.Next(0, mazeGenData.Width);
