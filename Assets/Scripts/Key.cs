@@ -5,6 +5,8 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public UIManager ui;
+    public AudioManager aud;
+
     void Update()
     {
         transform.Rotate(0.0f, 3.5f, 0.0f, Space.Self);
@@ -14,6 +16,7 @@ public class Key : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            aud.keyVFX.Play();
             ui.KeyFound();
             Destroy(this.gameObject);
         }

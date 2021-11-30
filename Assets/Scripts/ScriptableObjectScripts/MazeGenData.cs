@@ -87,7 +87,9 @@ public class MazeGenData : ScriptableObject
 
     public void getNewSeed()
     {
-        seed = Random.Range(1, 999999);
+        seed = (Random.Range(1, 999999) * (int)System.DateTime.Now.Second) % 999999;
+        //seed = ((int)System.DateTime.Now.Ticks) % Random.Range(1, 999999);
+        resetSeed();
     }
 
     public void resetSeed()
@@ -103,7 +105,7 @@ public class MazeGenData : ScriptableObject
         }
         else
         {
-            resetSeed();
+            getNewSeed();
             return rang;
         }
     }

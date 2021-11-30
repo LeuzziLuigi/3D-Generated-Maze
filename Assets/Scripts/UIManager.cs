@@ -119,4 +119,9 @@ public class UIManager : MonoBehaviour
 
         playFabManager.SendLeaderbord(int.Parse(score));
     }
+
+    public void NewSeedFromUI()
+    {
+        mazeGenData.getNewSeed();
+    }
 }

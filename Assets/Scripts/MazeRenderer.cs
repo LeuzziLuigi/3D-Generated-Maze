@@ -52,8 +52,10 @@ public class MazeRenderer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        mazeGenData.getNewSeed();
         var maze = MazeGen.Generate(mazeGenData.Width, mazeGenData.Height, mazeGenData.getRang());
         Draw(maze);
+        mazeGenData.keyCollected = 0;
     }
 
     private void Draw(WallState[,] maze)
