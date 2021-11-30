@@ -8,6 +8,9 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField]
     private MazeGenData mazeGenData;
 
+    public GameObject menuPanel;
+    public GameObject loginPanel;
+
     public void NewSeedFromUI()
     {
         mazeGenData.getNewSeed();
@@ -23,4 +26,20 @@ public class MainMenuManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoginButton()
+    {
+        menuPanel.SetActive(false);
+        loginPanel.SetActive(true);
+    }
+
+    public void LoginCancel()
+    {
+        menuPanel.SetActive(true);
+        loginPanel.SetActive(false);
+    }
+
+    public void LoginSubmit()
+    {
+        //Yolo
+    }
 }
