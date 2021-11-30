@@ -93,7 +93,8 @@ public class LevelManager : MonoBehaviour
 
         mazeGenData.timeScore = totalSeconds;
         //mazeGenData.pickupScore = gemCount;
-        mazeGenData.totalGems = mazeGenData.totalGems + gemCount;
+        //mazeGenData.totalGems = mazeGenData.totalGems + gemCount;
+        mazeGenData.totalGems = 0;
 
         SendScore();
     }
