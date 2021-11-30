@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public PlayFabManager playFabManager;
+    public GameObject player;
 
     [SerializeField]
     private MazeGenData mazeGenData;
